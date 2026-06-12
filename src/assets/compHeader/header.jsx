@@ -33,6 +33,7 @@ function Header() {
                 <Link to="/projects">{t(headerText, language, "projects")}</Link>
                 <Link to="/about">{t(headerText, language, "about")}</Link>
                 <Link to="/contact">{t(headerText, language, "contact")}</Link>
+                <Link to="/contact">{t(headerText, language, "resume")}</Link>
                 <button
                     className="btnCloseMenu"
                     onClick={() => setMenuOpen(false)}
