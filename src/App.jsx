@@ -1,16 +1,17 @@
 import { useState } from 'react'
 import './App.css'
+import Header from "./assets/compHeader/header.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <section id="center">
-        <h1>?</h1>
-      </section>
+      <Header />
+
+      <main>
+      </main>
+
     </>
-  )
+  );
 }
 
 export default App
