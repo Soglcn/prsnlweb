@@ -1,0 +1,24 @@
+:root {
+  /* Base */
+  --bg: #F6F3EE;
+  --bg-secondary: #EFE9DF;
+  --surface: #E7DED0;
+
+  /* Text */
+  --text: #4A433D;
+  --text-light: #7B736A;
+  --text-faint: #AAA195;
+
+  /* Accent */
+  --accent: #B08D57;
+  --accent-light: #D4B98B;
+
+  /* Borders */
+  --border: #D8CEC0;
+  --border-light: #E9E1D6;
+
+  /* Special */
+  --stone: #DDD1BE;
+  --stone-dark: #C5B49C;
+  --shadow: rgba(92, 72, 46, 0.08);
+}
