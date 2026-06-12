@@ -1,16 +1,43 @@
-# React + Vite
+# PRSNLWEB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio and digital showcase project.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+PRSNLWEB is a personal website created to present projects, game development work, 3D art, archaeological background, and creative experiments in a single digital space.
 
-## React Compiler
+The project focuses on clean presentation, immersive visuals, and interactive experiences rather than traditional portfolio layouts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Goals
 
-## Expanding the ESLint configuration
+* Showcase personal and professional projects
+* Present game development work
+* Display 3D art and design studies
+* Create a unique digital identity
+* Experiment with modern web technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies
+
+* React
+* Vite
+* JavaScript
+* CSS
+* Three.js (planned)
+
+## Current Status
+
+Project initialization and architecture setup.
+
+## Planned Sections
+
+* Home
+* About
+* Projects
+* Project Details
+* Contact
+
+## Author
+
+Sinan Oğulcan Yozgat
+
+Game Designer • 3D Artist • Archaeologist
