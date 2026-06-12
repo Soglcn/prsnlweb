@@ -40,6 +40,11 @@ function HeroModel() {
             gl={{ alpha: true }}
             style={{ background: "transparent" }}
         >
+            <directionalLight
+                position={[0, 8, 3]}
+                intensity={3}
+                color="#c9a46a"
+            />
             <ambientLight intensity={1} />
             <Model />
         </Canvas>
