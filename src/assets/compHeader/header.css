@@ -1,2 +1,67 @@
 @import url(../../index.css);
 
+.header {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text);
+}
+
+.headerLeftCont {
+    width: 50%;
+}
+
+.headerLogo {
+    width: 100%;
+}
+
+.headerLogo img {
+    width: 75%;
+}
+
+.headerRightCont {
+    width: 45%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    font-family: "Lora";
+    font-size: var(--fs-md);
+}
+
+.langCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+}
+
+.btnBurger {
+    border: none;
+    font-size: var(--fs-md);
+    color: var(--text);
+}
+
+.headerLang {
+    border: none;
+    font-size: var(--fs-md);
+    color: var(--text);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.headerNav {
+    visibility: hidden;
+}

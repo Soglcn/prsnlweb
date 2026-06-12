@@ -1,5 +1,7 @@
 @import url(./index.css);
 
 h1 {
+    font-family: "Lora";
+    font-weight: 100;
     color: var(--text)
 }

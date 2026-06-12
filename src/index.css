@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Lora";
+  src: url(../public/fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Elms";
+  src: url(../public/fonts/Elms_Sans/ElmsSans-VariableFont_wght.ttf);
+}
+
 :root {
   /* Base */
   --bg: #F6F3EE;
@@ -21,6 +31,15 @@
   --stone: #DDD1BE;
   --stone-dark: #C5B49C;
   --shadow: rgba(92, 72, 46, 0.08);
+
+    /* Font Sizes */
+  --fs-xs: 10pt;
+  --fs-sm: 12pt;
+  --fs-md: 14pt;
+  --fs-lg: 18pt;
+  --fs-xl: 24pt;
+  --fs-xxl: 32pt;
+  --fs-display: 48pt;
 }
 
 *{
