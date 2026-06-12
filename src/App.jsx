@@ -10,7 +10,7 @@ import { t } from "./utils/translate";
 
 
 function App() {
-  const { language} = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <Header />
@@ -19,6 +19,16 @@ function App() {
         <div className="landingWelcome">
           <div className="welcomeTextArea">
             <h2 className="wlcTitle">{t(appText, language, "title")}</h2>
+            <h1 className="wlcName">SİNAN OĞULCAN YOZGAT</h1>
+            <h2 className="wlcDescription">{t(appText, language, "description")}</h2>
+            <h2 className="wlcTitle">{t(appText, language, "catch")}</h2>
+            <button
+              className="btnExplore"
+              onClick={() => setMenuOpen(false)}
+            >
+              {t(appText, language, "explore")} <span></span>
+              <span className="arrowUpRight">↗</span>
+            </button>
           </div>
         </div>
         <div className="test">

@@ -1,17 +1,32 @@
 {
     "en": {
-        "title": "GAME DESIGNER • 3D GENERALIST • SERIOUS GAMES SPECIALIST"
+        "title": "GAME DESIGNER • 3D GENERALIST • SERIOUS GAMES SPECIALIST",
+        "description": "I design and build immersive games, simulations and interactive experiences that connect storytelling, technology and meaningful gameplay.",
+        "catch": "From archaeological excavation sites to virtual worlds.",
+        "explore": "EXPLORE" 
     },
     "tr": {
-        "title": "OYUN TASARIMCISI • 3B GELİŞTİRİCİ • CİDDİ OYUNLAR UZMANI"
+        "title": "OYUN TASARIMCISI • 3B GELİŞTİRİCİ • CİDDİ OYUNLAR UZMANI",
+        "description": "Hikâye anlatımını, teknolojiyi ve anlamlı oynanışı bir araya getiren sürükleyici oyunlar, simülasyonlar ve etkileşimli deneyimler tasarlıyor ve geliştiriyorum.",
+        "catch": "Arkeolojik kazı araştırmalarından sanal dünyalara.",
+        "explore": "KEŞFET" 
     },
     "fr": {
-        "title": "CONCEPTEUR DE JEUX • GÉNÉRALISTE 3D • SPÉCIALISTE DES JEUX SÉRIEUX"
+        "title": "CONCEPTEUR DE JEUX • GÉNÉRALISTE 3D • SPÉCIALISTE DES JEUX SÉRIEUX",
+        "description": "Je conçois et développe des jeux, des simulations et des expériences interactives immersives qui relient narration, technologie et gameplay porteur de sens.",
+        "catch": "Des sites de fouilles archéologiques aux mondes virtuels.",
+        "explore": "EXPLORER"
     },
     "es": {
-        "title": "DISEÑADOR DE JUEGOS • GENERALISTA 3D • ESPECIALISTA EN SERIOUS GAMES"
+        "title": "DISEÑADOR DE JUEGOS • GENERALISTA 3D • ESPECIALISTA EN SERIOUS GAMES",
+        "description": "Diseño y desarrollo juegos, simulaciones y experiencias interactivas inmersivas que conectan la narrativa, la tecnología y una jugabilidad significativa.",
+        "catch": "De los yacimientos arqueológicos a los mundos virtuales.",
+        "explore": "EXPLORAR"
     },
     "it": {
-        "title": "GAME DESIGNER • GENERALISTA 3D • SPECIALISTA IN SERIOUS GAMES"
+        "title": "GAME DESIGNER • GENERALISTA 3D • SPECIALISTA IN SERIOUS GAMES",
+        "description": "Progetto e sviluppo giochi, simulazioni ed esperienze interattive immersive che uniscono narrazione, tecnologia e un gameplay significativo.",
+        "catch": "Dai siti di scavo archeologico ai mondi virtuali.",
+        "explore": "ESPLORA"
     }
 }
