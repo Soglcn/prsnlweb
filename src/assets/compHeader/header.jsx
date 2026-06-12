@@ -7,6 +7,7 @@ import { t } from "../../utils/translate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../public/images/sy_dark_logo.png";
 
 
@@ -27,14 +28,17 @@ function Header() {
 
             <nav className={`headerNav ${menuOpen ? "active" : ""}`}>
                 <img src={logo} className="menuLogo" alt="SY Logo" />
-                <a>{t(headerText, language, "home")}</a>
-                <a>{t(headerText, language, "projects")}</a>
-                <a>{t(headerText, language, "about")}</a>
-                <a>{t(headerText, language, "contact")}</a>
+
+                <Link to="/">{t(headerText, language, "home")}</Link>
+                <Link to="/projects">{t(headerText, language, "projects")}</Link>
+                <Link to="/about">{t(headerText, language, "about")}</Link>
+                <Link to="/contact">{t(headerText, language, "contact")}</Link>
                 <button
                     className="btnCloseMenu"
                     onClick={() => setMenuOpen(false)}
                 >
+                    <FontAwesomeIcon icon={faCircleXmark} />
+                    {" "}
                     {t(headerText, language, "close")}
                 </button>
             </nav>
