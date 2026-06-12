@@ -16,7 +16,14 @@ function App() {
       <Header />
 
       <main>
-        <h1>{t(appText, language, "home")}</h1>
+        <div className="landingWelcome">
+          <div className="welcomeTextArea">
+            <h2 className="wlcTitle">{t(appText, language, "title")}</h2>
+          </div>
+        </div>
+        <div className="test">
+          second
+        </div>
       </main>
 
     </>
