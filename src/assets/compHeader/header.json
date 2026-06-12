@@ -1,32 +1,37 @@
 {
-  "en": {
-    "home": "Home",
-    "projects": "Projects",
-    "about": "About",
-    "contact": "Contact"
-  },
-  "tr": {
-    "home": "Ana Sayfa",
-    "projects": "Projeler",
-    "about": "Hakkımda",
-    "contact": "İletişim"
-  },
-  "fr": {
-    "home": "Accueil",
-    "projects": "Projets",
-    "about": "À propos",
-    "contact": "Contact"
-  },
-  "es": {
-    "home": "Inicio",
-    "projects": "Proyectos",
-    "about": "Sobre mí",
-    "contact": "Contacto"
-  },
-  "it": {
-    "home": "Home",
-    "projects": "Progetti",
-    "about": "Chi sono",
-    "contact": "Contatti"
-  }
+    "en": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact",
+        "close": "Close"
+    },
+    "tr": {
+        "home": "Ana Sayfa",
+        "projects": "Projeler",
+        "about": "Hakkımda",
+        "contact": "İletişim",
+        "close": "Kapat"
+    },
+    "fr": {
+        "home": "Accueil",
+        "projects": "Projets",
+        "about": "À propos",
+        "contact": "Contact",
+        "close": "Fermer"
+    },
+    "es": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "about": "Sobre mí",
+        "contact": "Contacto",
+        "close": "Cerrar"
+    },
+    "it": {
+        "home": "Home",
+        "projects": "Progetti",
+        "about": "Chi sono",
+        "contact": "Contatti",
+        "close": "Chiudi"
+    }
 }

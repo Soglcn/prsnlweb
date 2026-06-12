@@ -32,7 +32,7 @@
   --stone-dark: #C5B49C;
   --shadow: rgba(92, 72, 46, 0.08);
 
-    /* Font Sizes */
+  /* Font Sizes */
   --fs-xs: 10pt;
   --fs-sm: 12pt;
   --fs-md: 14pt;
@@ -42,6 +42,8 @@
   --fs-display: 48pt;
 }
 
-*{
+* {
   background-color: var(--bg);
+  margin: 0;
+  padding: 0;
 }

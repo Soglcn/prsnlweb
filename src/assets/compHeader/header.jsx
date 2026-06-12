@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./header.css";
 import headerText from "./header.json";
 import { useLanguage } from "../../context/LanguageContext";
@@ -9,9 +10,11 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../public/images/sy_dark_logo.png";
 
 
+
 function Header() {
     const { language, changeLanguage } = useLanguage();
-    console.log(Object.keys(headerText));
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <header className="header">
             <div className="headerLeftCont">
@@ -22,11 +25,18 @@ function Header() {
                 </div>
             </div>
 
-            <nav className="headerNav">
+            <nav className={`headerNav ${menuOpen ? "active" : ""}`}>
+                <img src={logo} className="menuLogo" alt="SY Logo" />
                 <a>{t(headerText, language, "home")}</a>
                 <a>{t(headerText, language, "projects")}</a>
                 <a>{t(headerText, language, "about")}</a>
                 <a>{t(headerText, language, "contact")}</a>
+                <button
+                    className="btnCloseMenu"
+                    onClick={() => setMenuOpen(false)}
+                >
+                    {t(headerText, language, "close")}
+                </button>
             </nav>
 
 
@@ -45,11 +55,12 @@ function Header() {
                         ))}
                     </select>
                 </div>
-                <div className="burgerCont">
-                    <button className="btnBurger">
-                        <FontAwesomeIcon icon={faBars} />
-                    </button>
-                </div>
+                <button
+                    className="btnBurger"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    <FontAwesomeIcon icon={faBars} />
+                </button>
             </div>
 
         </header>
