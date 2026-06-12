@@ -8,6 +8,7 @@ import appText from "./App.json";
 import { useLanguage } from "./context/LanguageContext";
 import { t } from "./utils/translate";
 
+import HeroModel from "./assets/HeroModel";
 
 function App() {
   const { language } = useLanguage();
@@ -27,7 +28,14 @@ function App() {
               <button className="btnResume">{t(appText, language, "resume")} <span></span><span className="arrowUpRight">↓</span></button>
             </div>
           </div>
-          <div className="test">s</div>
+          <div className="heroModel">
+            <HeroModel />
+            <img
+              className="heroBg"
+              src="/images/contallienbg.png"
+              alt=""
+            />
+          </div>
         </div>
 
 
