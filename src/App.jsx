@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <section id="center">
-        <h1>BASE! VER 1</h1>
+        <h1>?</h1>
       </section>
     </>
   )
