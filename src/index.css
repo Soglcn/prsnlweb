@@ -22,3 +22,7 @@
   --stone-dark: #C5B49C;
   --shadow: rgba(92, 72, 46, 0.08);
 }
+
+*{
+  background-color: var(--bg);
+}
