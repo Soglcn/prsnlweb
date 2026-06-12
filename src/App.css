@@ -7,18 +7,34 @@ main {
     flex-direction: column;
 }
 
-.landingWelcome {
+.hero{
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
+.landingWelcome {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+
 .wlcTitle {
+    font-family: "Elms";
+    font-size: var(--fs-xxs);
+    color: var(--accent);
+    padding-right: 20%;
+    padding-top: 5%;
+    font-weight: 600;
+}
+
+.wlcCatch {
     font-family: "Elms";
     font-size: var(--fs-xs);
     color: var(--accent);
     padding-right: 20%;
     padding-top: 5%;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .wlcName {
@@ -35,8 +51,8 @@ main {
 .wlcDescription {
     color: var(--text);
     font-family: "Elms";
-    font-weight: 300;
-    font-size: var(--fs-md);
+    font-weight: 400;
+    font-size: var(--fs-sm);
     padding-top: 10%;
     margin-right: 10%;
 }
@@ -48,14 +64,34 @@ main {
     font-family: "Elms";
     font-size: var(--fs-xs);
     font-weight: 600;
-    gap: 25%;
+    gap: 10%;
     border: 1px solid var(--accent);
     margin-top: 5%;
-    padding: 15px 30px 15px 25px;
+    padding: 10px 25px 10px 25px;
     color: var(--text);
+    white-space: nowrap;
+    text-align: justify;
 }
 
 .arrowUpRight {
     font-size: var(--fs-md);
     font-weight: 300;
+}
+
+.btnResume {
+    width: auto;
+    display: none;
+    align-items: center;
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    gap: 10%;
+    border: none;
+    border-bottom: 1px solid var(--accent);
+    padding-top: 5%;
+    padding-bottom: 5px;
+    margin: 10px 25px 10px 25px;
+    color: var(--text);
+    white-space: nowrap;
+    text-align: justify;
 }

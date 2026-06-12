@@ -16,24 +16,21 @@ function App() {
       <Header />
 
       <main>
-        <div className="landingWelcome">
-          <div className="welcomeTextArea">
-            <h2 className="wlcTitle">{t(appText, language, "title")}</h2>
-            <h1 className="wlcName">SİNAN OĞULCAN YOZGAT</h1>
-            <h2 className="wlcDescription">{t(appText, language, "description")}</h2>
-            <h2 className="wlcTitle">{t(appText, language, "catch")}</h2>
-            <button
-              className="btnExplore"
-              onClick={() => setMenuOpen(false)}
-            >
-              {t(appText, language, "explore")} <span></span>
-              <span className="arrowUpRight">↗</span>
-            </button>
+        <div className="hero">
+          <div className="landingWelcome">
+            <div className="welcomeTextArea">
+              <h2 className="wlcTitle">{t(appText, language, "title")}</h2>
+              <h1 className="wlcName">SİNAN OĞULCAN YOZGAT</h1>
+              <h2 className="wlcDescription">{t(appText, language, "description")}</h2>
+              <h2 className="wlcCatch">{t(appText, language, "catch")}</h2>
+              <button className="btnExplore">{t(appText, language, "explore")} <span></span><span className="arrowUpRight">↗</span></button>
+              <button className="btnResume">{t(appText, language, "resume")} <span></span><span className="arrowUpRight">↓</span></button>
+            </div>
           </div>
+          <div className="test">s</div>
         </div>
-        <div className="test">
-          second
-        </div>
+
+
       </main>
 
     </>

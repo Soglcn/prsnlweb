@@ -33,13 +33,14 @@
   --shadow: rgba(92, 72, 46, 0.08);
 
   /* Font Sizes */
+  --fs-xxs: 9pt;
   --fs-xs: 10pt;
-  --fs-sm: 12pt;
+  --fs-sm: 11pt;
   --fs-md: 14pt;
   --fs-lg: 18pt;
   --fs-xl: 24pt;
   --fs-xxl: 32pt;
-  --fs-display: 48pt;
+  --fs-display: 42pt;
 }
 
 * {

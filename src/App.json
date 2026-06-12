@@ -1,32 +1,37 @@
 {
     "en": {
         "title": "GAME DESIGNER • 3D GENERALIST • SERIOUS GAMES SPECIALIST",
-        "description": "I design and build immersive games, simulations and interactive experiences that connect storytelling, technology and meaningful gameplay.",
+        "description": "Designing games, simulations and interactive experiences where storytelling meets technology.",
         "catch": "From archaeological excavation sites to virtual worlds.",
-        "explore": "EXPLORE" 
+        "explore": "EXPLORE WORKS",
+        "resume": "VIEW RESUME"
     },
     "tr": {
         "title": "OYUN TASARIMCISI • 3B GELİŞTİRİCİ • CİDDİ OYUNLAR UZMANI",
-        "description": "Hikâye anlatımını, teknolojiyi ve anlamlı oynanışı bir araya getiren sürükleyici oyunlar, simülasyonlar ve etkileşimli deneyimler tasarlıyor ve geliştiriyorum.",
+        "description": "Hikâye anlatımı ile teknolojinin kesişiminde oyunlar, simülasyonlar ve etkileşimli deneyimler tasarlıyorum.",
         "catch": "Arkeolojik kazı araştırmalarından sanal dünyalara.",
-        "explore": "KEŞFET" 
+        "explore": "ÇALIŞMALARI KEŞFET",
+        "resume": "ÖZGEÇMİŞİ GÖRÜNTÜLE"
     },
     "fr": {
         "title": "CONCEPTEUR DE JEUX • GÉNÉRALISTE 3D • SPÉCIALISTE DES JEUX SÉRIEUX",
-        "description": "Je conçois et développe des jeux, des simulations et des expériences interactives immersives qui relient narration, technologie et gameplay porteur de sens.",
+        "description": "Je crée des jeux, simulations et expériences interactives où la narration rencontre la technologie.",
         "catch": "Des sites de fouilles archéologiques aux mondes virtuels.",
-        "explore": "EXPLORER"
+        "explore": "EXPLORER LES PROJETS",
+        "resume": "VOIR LE CV"
     },
     "es": {
         "title": "DISEÑADOR DE JUEGOS • GENERALISTA 3D • ESPECIALISTA EN SERIOUS GAMES",
-        "description": "Diseño y desarrollo juegos, simulaciones y experiencias interactivas inmersivas que conectan la narrativa, la tecnología y una jugabilidad significativa.",
+        "description": "Creo juegos, simulaciones y experiencias interactivas donde la narrativa se une a la tecnología.",
         "catch": "De los yacimientos arqueológicos a los mundos virtuales.",
-        "explore": "EXPLORAR"
+        "explore": "EXPLORAR PROYECTOS",
+        "resume": "VER CURRÍCULUM"
     },
     "it": {
         "title": "GAME DESIGNER • GENERALISTA 3D • SPECIALISTA IN SERIOUS GAMES",
-        "description": "Progetto e sviluppo giochi, simulazioni ed esperienze interattive immersive che uniscono narrazione, tecnologia e un gameplay significativo.",
+        "description": "Creo giochi, simulazioni ed esperienze interattive in cui narrazione e tecnologia si incontrano.",
         "catch": "Dai siti di scavo archeologico ai mondi virtuali.",
-        "explore": "ESPLORA"
+        "explore": "ESPLORA I PROGETTI",
+        "resume": "VISUALIZZA CV"
     }
 }
