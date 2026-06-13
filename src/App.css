@@ -121,3 +121,83 @@ canvas {
     position: relative;
     z-index: 2;
 }
+
+.selectedProjects {
+    margin-top: 5%;
+    font-family: "Elms";
+    font-size: var(--fs-xxs);
+    width: 90%;
+    padding-left: 5%;
+    color: var(--accent);
+}
+
+.selTitle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.selSub {
+    width: 60%;
+}
+
+.compassLine {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.compassLine img {
+    width: 20%;
+}
+
+.compassLine span {
+    flex: 1;
+    height: 1px;
+
+    background: linear-gradient(90deg,
+            #B08D57,
+            #F6F3EE);
+}
+
+.featured {
+    width: 100%;
+}
+
+.featureNumber {
+    padding-top: 5%;
+    font-weight: 600;
+}
+
+.featuredName {
+    font-family: "Lora";
+    color: var(--text);
+    font-size: var(--fs-xl);
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+.featuredDesc {
+    font-size: var(--fs-xs);
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 20%;
+}
+
+.btnGoProject {
+    width: auto;
+    align-items: center;
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    gap: 10%;
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5px;
+    color: var(--accent);
+    white-space: nowrap;
+    text-align: justify;
+}
