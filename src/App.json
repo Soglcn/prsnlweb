@@ -12,7 +12,9 @@
         "goProject": "VIEW PROJECT",
         "abTitle": "ABOUT ME",
         "abMe": "Curiosity has always guided my work. Over the years, I have turned creativity into a bridge between different disciplines, bringing together archaeology, technology, design, and interactive media to create meaningful experiences.",
-        "more": "LEARN MORE"
+        "more": "LEARN MORE",
+        "org": "PROJECTS FOR",
+        "orgExp": "Throughout my career, I have contributed to a wide range of projects for numerous organizations and institutions, either independently or as part of multidisciplinary teams."
     },
     "tr": {
         "title": "OYUN TASARIMCISI • 3B GELİŞTİRİCİ • CİDDİ OYUNLAR UZMANI",
@@ -27,7 +29,9 @@
         "goProject": "PROJEYİ GÖR",
         "abTitle": "HAKKIMDA",
         "abMe": "Merak, çalışmalarımın her zaman merkezinde yer aldı. Yıllar içinde yaratıcılığımı farklı disiplinler arasında bir köprüye dönüştürerek arkeolojiyi, teknolojiyi, tasarımı ve etkileşimli medyayı anlamlı deneyimlerde bir araya getirdim.",
-        "more": "DAHA FAZLASI"
+        "more": "DAHA FAZLASI",
+        "org": "KATKI SAĞLADIKLARIM",
+        "orgExp": "Kariyerim boyunca bireysel olarak veya parçası olduğum ekipler aracılığıyla birçok kurum ve kuruluşa çeşitli projelerde katkı sağladım."
     },
     "fr": {
         "title": "CONCEPTEUR DE JEUX • GÉNÉRALISTE 3D • SPÉCIALISTE DES JEUX SÉRIEUX",
@@ -42,7 +46,9 @@
         "goProject": "VOIR LE PROJET",
         "abTitle": "À PROPOS",
         "abMe": "La curiosité a toujours guidé mon travail. Au fil des années, j’ai transformé ma créativité en un pont entre différentes disciplines, réunissant l’archéologie, la technologie, le design et les médias interactifs afin de créer des expériences porteuses de sens.",
-        "more": "EN SAVOIR PLUS"
+        "more": "EN SAVOIR PLUS",
+        "org": "PROJETS POUR",
+        "orgExp": "Tout au long de ma carrière, j’ai contribué à de nombreux projets pour diverses organisations et institutions, soit de manière indépendante, soit au sein d’équipes pluridisciplinaires."
     },
     "es": {
         "title": "DISEÑADOR DE JUEGOS • GENERALISTA 3D • ESPECIALISTA EN SERIOUS GAMES",
@@ -57,7 +63,9 @@
         "goProject": "VER PROYECTO",
         "abTitle": "SOBRE MÍ",
         "abMe": "La curiosidad siempre ha guiado mi trabajo. Con los años, he convertido mi creatividad en un puente entre distintas disciplinas, uniendo la arqueología, la tecnología, el diseño y los medios interactivos para crear experiencias significativas.",
-        "more": "DESCUBRIR MÁS"
+        "more": "DESCUBRIR MÁS",
+        "org": "PROYECTOS PARA",
+        "orgExp": "A lo largo de mi carrera, he contribuido a numerosos proyectos para diversas organizaciones e instituciones, ya sea de forma independiente o como parte de equipos multidisciplinarios."
     },
     "it": {
         "title": "GAME DESIGNER • GENERALISTA 3D • SPECIALISTA IN SERIOUS GAMES",
@@ -72,6 +80,8 @@
         "goProject": "VISUALIZZA PROGETTO",
         "abTitle": "CHI SONO",
         "abMe": "La curiosità ha sempre guidato il mio lavoro. Nel corso degli anni, ho trasformato la mia creatività in un ponte tra discipline diverse, unendo archeologia, tecnologia, design e media interattivi per creare esperienze significative.",
-        "more": "SCOPRI DI PIÙ"
+        "more": "SCOPRI DI PIÙ",
+        "org": "PROGETTI PER",
+        "orgExp": "Nel corso della mia carriera, ho contribuito a numerosi progetti per diverse organizzazioni e istituzioni, sia in modo indipendente sia come parte di team multidisciplinari."
     }
 }

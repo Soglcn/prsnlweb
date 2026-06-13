@@ -305,3 +305,14 @@ canvas {
     margin-bottom: -5%;
     margin-top: 5%;
 }
+
+.bannerText{
+    margin-top: 5%;
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    width: 75%;
+    font-weight: 500;
+    padding-left: 5%;
+    color: var(--text);
+    padding-bottom: 5%;
+}

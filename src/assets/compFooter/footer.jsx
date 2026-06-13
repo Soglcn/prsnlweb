@@ -93,6 +93,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <div className="rights">© 2026 Sinan Oğulcan Yozgat. All Rights Reserved.</div>
         </footer>
     );
 }

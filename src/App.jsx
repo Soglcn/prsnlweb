@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import './App.css'
 import Header from "./assets/compHeader/header.jsx";
 import Footer from "./assets/compFooter/footer.jsx";
+import Banner from "./assets/compLoop/LogoMarquee.jsx"
 
 import appText from "./App.json";
 import { useLanguage } from "./context/LanguageContext";
@@ -109,6 +110,22 @@ function App() {
             </div>
           </div>
 
+        </div>
+
+        <div className="selectedProjects">
+          <div className="selTitle">
+            <h3 className="selSub">{t(appText, language, "org")}</h3>
+            <div className="compassLine">
+              <img src={compassIcon} alt="Compass" />
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="bannerArea">
+          <h2 className="bannerText">{t(appText, language, "orgExp")} </h2>
+          <Banner />
         </div>
 
         <div className="footerMap">
