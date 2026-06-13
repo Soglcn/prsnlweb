@@ -10,7 +10,9 @@
         "meowDesc": "A relaxing mobile experience designed to ease daily stress through mini-games, breathing exercises and a lovable feline companion.",
         "cosmicDesc": "A sci-fi horror game where you struggle to survive on an abandoned oil platform after a mysterious disaster.",
         "goProject": "VIEW PROJECT",
-        "abTitle": "ABOUT ME"
+        "abTitle": "ABOUT ME",
+        "abMe": "Curiosity has always guided my work. Over the years, I have turned creativity into a bridge between different disciplines, bringing together archaeology, technology, design, and interactive media to create meaningful experiences.",
+        "more": "LEARN MORE"
     },
     "tr": {
         "title": "OYUN TASARIMCISI • 3B GELİŞTİRİCİ • CİDDİ OYUNLAR UZMANI",
@@ -23,7 +25,9 @@
         "meowDesc": "Günlük stresi küçük oyunlar, nefes egzersizleri ve sevimli bir kedi dostuyla hafifletmeyi amaçlayan rahatlatıcı bir mobil deneyim.",
         "cosmicDesc": "Gizemli bir felaketin ardından terk edilmiş bir petrol platformunda hayatta kalmaya çalıştığınız bilim kurgu korku oyunu.",
         "goProject": "PROJEYİ GÖR",
-        "abTitle": "HAKKIMDA"
+        "abTitle": "HAKKIMDA",
+        "abMe": "Merak, çalışmalarımın her zaman merkezinde yer aldı. Yıllar içinde yaratıcılığımı farklı disiplinler arasında bir köprüye dönüştürerek arkeolojiyi, teknolojiyi, tasarımı ve etkileşimli medyayı anlamlı deneyimlerde bir araya getirdim.",
+        "more": "DAHA FAZLASI"
     },
     "fr": {
         "title": "CONCEPTEUR DE JEUX • GÉNÉRALISTE 3D • SPÉCIALISTE DES JEUX SÉRIEUX",
@@ -36,7 +40,9 @@
         "meowDesc": "Une expérience mobile relaxante conçue pour réduire le stress quotidien grâce à de petits jeux, des exercices de respiration et un adorable compagnon félin.",
         "cosmicDesc": "Un jeu d'horreur de science-fiction dans lequel vous tentez de survivre sur une plateforme pétrolière abandonnée après une catastrophe mystérieuse.",
         "goProject": "VOIR LE PROJET",
-        "abTitle": "À PROPOS"
+        "abTitle": "À PROPOS",
+        "abMe": "La curiosité a toujours guidé mon travail. Au fil des années, j’ai transformé ma créativité en un pont entre différentes disciplines, réunissant l’archéologie, la technologie, le design et les médias interactifs afin de créer des expériences porteuses de sens.",
+        "more": "EN SAVOIR PLUS"
     },
     "es": {
         "title": "DISEÑADOR DE JUEGOS • GENERALISTA 3D • ESPECIALISTA EN SERIOUS GAMES",
@@ -49,7 +55,9 @@
         "meowDesc": "Una experiencia móvil relajante diseñada para aliviar el estrés diario mediante minijuegos, ejercicios de respiración y un adorable compañero felino.",
         "cosmicDesc": "Un juego de terror y ciencia ficción en el que intentas sobrevivir en una plataforma petrolífera abandonada tras un misterioso desastre.",
         "goProject": "VER PROYECTO",
-        "abTitle": "SOBRE MÍ"
+        "abTitle": "SOBRE MÍ",
+        "abMe": "La curiosidad siempre ha guiado mi trabajo. Con los años, he convertido mi creatividad en un puente entre distintas disciplinas, uniendo la arqueología, la tecnología, el diseño y los medios interactivos para crear experiencias significativas.",
+        "more": "DESCUBRIR MÁS"
     },
     "it": {
         "title": "GAME DESIGNER • GENERALISTA 3D • SPECIALISTA IN SERIOUS GAMES",
@@ -62,6 +70,8 @@
         "meowDesc": "Un'esperienza mobile rilassante pensata per alleviare lo stress quotidiano attraverso minigiochi, esercizi di respirazione e un adorabile compagno felino.",
         "cosmicDesc": "Un gioco horror fantascientifico in cui cerchi di sopravvivere su una piattaforma petrolifera abbandonata dopo un misterioso disastro.",
         "goProject": "VISUALIZZA PROGETTO",
-        "abTitle": "CHI SONO"
+        "abTitle": "CHI SONO",
+        "abMe": "La curiosità ha sempre guidato il mio lavoro. Nel corso degli anni, ho trasformato la mia creatività in un ponte tra discipline diverse, unendo archeologia, tecnologia, design e media interattivi per creare esperienze significative.",
+        "more": "SCOPRI DI PIÙ"
     }
 }

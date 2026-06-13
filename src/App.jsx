@@ -97,10 +97,15 @@ function App() {
 
           <div className="aboutDescArea">
             <div className="abText">
-              abouasodjaıhsdg a hjsd
+              <p className="abMe">
+                {t(appText, language, "abMe")}
+              </p>
+              <button className="btnGoProject">{t(appText, language, "more")} <span></span><span className="arrowUpRight">→</span></button>
             </div>
-            <img src={mePhoto} alt="Compass" />
 
+            <div className="mePhoto">
+              <img src={mePhoto} alt="Sinan Oğulcan Yozgat" />
+            </div>
           </div>
 
         </div>
