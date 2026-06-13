@@ -27,6 +27,16 @@ function Footer() {
     return (
         <footer>
             <div className="footerArea">
+
+
+                <div className="catch">
+                    <img src="/images/sy_dark_logo.png" alt="" />
+                    <h3 className="aut">
+                        "Aut viam inveniam aut faciam."
+                    </h3>
+
+                </div>
+
                 <div className="socials">
                     <h3 className="letsCont">
                         {t(footText, language, "letsCont")}
@@ -53,13 +63,6 @@ function Footer() {
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>
-                </div>
-
-                <div className="catch">
-                    <h3 className="aut">
-                        "Aut viam inveniam aut faciam."
-                    </h3>
-                    <img src="/images/sy_dark_logo.png" alt="" />
                 </div>
 
                 <div className="contact">

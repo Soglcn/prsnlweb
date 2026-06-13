@@ -60,6 +60,7 @@
     font-size: var(--fs-md);
     font-style: italic;
     font-weight: 300;
+    padding-bottom: 5%;
 }
 
 .catch img {
@@ -95,5 +96,37 @@
     font-family: "Lora";
     font-size: 6pt;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+} 
+
+.reveal {
+  opacity: 0;
+  transform: translateY(35px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  transform: translateX(-35px);
+}
+
+.reveal-right {
+  transform: translateX(35px);
+}
+
+.reveal-up {
+  transform: translateY(35px);
+}
+
+.reveal.revealed.reveal-left,
+.reveal.revealed.reveal-right,
+.reveal.revealed.reveal-up {
+  transform: translate(0, 0);
 }
