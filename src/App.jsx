@@ -10,6 +10,7 @@ import { t } from "./utils/translate";
 
 import HeroModel from "./assets/HeroModel";
 import compassIcon from "/images/compass.png";
+import mePhoto from "/images/soyMain.png"
 
 import XenoModel from './assets/XenoModel.jsx';
 import MeowModel from './assets/MeowModel.jsx';
@@ -82,6 +83,27 @@ function App() {
           </div>
         </div>
 
+        <div className="aboutCont">
+          <div className="abTitle">
+            <div className="abTop">
+              <h3 className="abSub">{t(appText, language, "abTitle")}</h3>
+              <div className="compassAb">
+                <img src={compassIcon} alt="Compass" />
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="aboutDescArea">
+            <div className="abText">
+              abouasodjaıhsdg a hjsd
+            </div>
+            <img src={mePhoto} alt="Compass" />
+
+          </div>
+
+        </div>
 
       </main>
 

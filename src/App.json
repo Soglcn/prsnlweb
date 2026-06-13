@@ -9,7 +9,8 @@
         "xenoDesc": "A mystery game focused on exploration, puzzles and investigation, set in a museum filled with paranormal events and historical secrets.",
         "meowDesc": "A relaxing mobile experience designed to ease daily stress through mini-games, breathing exercises and a lovable feline companion.",
         "cosmicDesc": "A sci-fi horror game where you struggle to survive on an abandoned oil platform after a mysterious disaster.",
-        "goProject": "VIEW PROJECT"
+        "goProject": "VIEW PROJECT",
+        "abTitle": "ABOUT ME"
     },
     "tr": {
         "title": "OYUN TASARIMCISI • 3B GELİŞTİRİCİ • CİDDİ OYUNLAR UZMANI",
@@ -21,7 +22,8 @@
         "xenoDesc": "Paranormal olaylar ve tarihsel sırlarla dolu bir müzede geçen, keşif, bulmaca ve araştırma odaklı gizem oyunu.",
         "meowDesc": "Günlük stresi küçük oyunlar, nefes egzersizleri ve sevimli bir kedi dostuyla hafifletmeyi amaçlayan rahatlatıcı bir mobil deneyim.",
         "cosmicDesc": "Gizemli bir felaketin ardından terk edilmiş bir petrol platformunda hayatta kalmaya çalıştığınız bilim kurgu korku oyunu.",
-        "goProject": "PROJEYİ GÖR"
+        "goProject": "PROJEYİ GÖR",
+        "abTitle": "HAKKIMDA"
     },
     "fr": {
         "title": "CONCEPTEUR DE JEUX • GÉNÉRALISTE 3D • SPÉCIALISTE DES JEUX SÉRIEUX",
@@ -33,7 +35,8 @@
         "xenoDesc": "Un jeu de mystère axé sur l'exploration, les énigmes et l'investigation, se déroulant dans un musée rempli d'événements paranormaux et de secrets historiques.",
         "meowDesc": "Une expérience mobile relaxante conçue pour réduire le stress quotidien grâce à de petits jeux, des exercices de respiration et un adorable compagnon félin.",
         "cosmicDesc": "Un jeu d'horreur de science-fiction dans lequel vous tentez de survivre sur une plateforme pétrolière abandonnée après une catastrophe mystérieuse.",
-        "goProject": "VOIR LE PROJET"
+        "goProject": "VOIR LE PROJET",
+        "abTitle": "À PROPOS"
     },
     "es": {
         "title": "DISEÑADOR DE JUEGOS • GENERALISTA 3D • ESPECIALISTA EN SERIOUS GAMES",
@@ -45,7 +48,8 @@
         "xenoDesc": "Un juego de misterio centrado en la exploración, los rompecabezas y la investigación, ambientado en un museo lleno de fenómenos paranormales y secretos históricos.",
         "meowDesc": "Una experiencia móvil relajante diseñada para aliviar el estrés diario mediante minijuegos, ejercicios de respiración y un adorable compañero felino.",
         "cosmicDesc": "Un juego de terror y ciencia ficción en el que intentas sobrevivir en una plataforma petrolífera abandonada tras un misterioso desastre.",
-        "goProject": "VER PROYECTO"
+        "goProject": "VER PROYECTO",
+        "abTitle": "SOBRE MÍ"
     },
     "it": {
         "title": "GAME DESIGNER • GENERALISTA 3D • SPECIALISTA IN SERIOUS GAMES",
@@ -57,6 +61,7 @@
         "xenoDesc": "Un gioco di mistero incentrato su esplorazione, enigmi e investigazione, ambientato in un museo ricco di eventi paranormali e segreti storici.",
         "meowDesc": "Un'esperienza mobile rilassante pensata per alleviare lo stress quotidiano attraverso minigiochi, esercizi di respirazione e un adorabile compagno felino.",
         "cosmicDesc": "Un gioco horror fantascientifico in cui cerchi di sopravvivere su una piattaforma petrolifera abbandonata dopo un misterioso disastro.",
-        "goProject": "VISUALIZZA PROGETTO"
+        "goProject": "VISUALIZZA PROGETTO",
+        "abTitle": "CHI SONO"
     }
 }

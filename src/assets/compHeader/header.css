@@ -16,15 +16,22 @@
 
 .headerLeftCont {
     width: 50%;
+    background: none;
 }
 
 .headerLogo {
     width: 50%;
+    background: none;
 }
 
 .headerLogo img {
     width: 75%;
     height: 100%;
+    background: none;
+}
+
+.linktoMain {
+    background: none;
 }
 
 .headerRightCont {
@@ -36,6 +43,7 @@
     justify-content: right;
     font-family: "Lora";
     font-size: var(--fs-md);
+    background: none;
 }
 
 .langCont {
@@ -44,6 +52,7 @@
     align-items: center;
     color: var(--text);
     gap: 5px;
+    background: none;
 }
 
 .btnBurger {

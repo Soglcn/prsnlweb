@@ -20,7 +20,7 @@ function Header() {
         <header className="header">
             <div className="headerLeftCont">
                 <div className="headerLogo">
-                    <Link to="/">
+                    <Link to="/" className="linktoMain">
                         <img src={logo} alt="SY Logo" />
                     </Link>
                 </div>
