@@ -11,6 +11,10 @@ import { t } from "./utils/translate";
 import HeroModel from "./assets/HeroModel";
 import compassIcon from "/images/compass.png";
 
+import XenoModel from './assets/XenoModel.jsx';
+import MeowModel from './assets/MeowModel.jsx';
+import CosmicModel from './assets/CosmicModel.jsx';
+
 function App() {
   const { language } = useLanguage();
   return (
@@ -53,6 +57,7 @@ function App() {
               <h3 className="featureNumber">01</h3>
               <h1 className="featuredName">XENO</h1>
               <h2 className="featuredDesc">{t(appText, language, "xenoDesc")} </h2>
+              <div className="featuredModels"><XenoModel /></div>
               <button className="btnGoProject">{t(appText, language, "goProject")} <span></span><span className="arrowUpRight">→</span></button>
             </div>
           </div>
@@ -61,6 +66,7 @@ function App() {
               <h3 className="featureNumber">02</h3>
               <h1 className="featuredName">MEOWDITATION</h1>
               <h2 className="featuredDesc">{t(appText, language, "meowDesc")} </h2>
+              <div className="featuredModels"><MeowModel /></div>
               <button className="btnGoProject">{t(appText, language, "goProject")} <span></span><span className="arrowUpRight">→</span></button>
 
             </div>
@@ -70,6 +76,7 @@ function App() {
               <h3 className="featureNumber">03</h3>
               <h1 className="featuredName">COSMIC CONTAMINATION</h1>
               <h2 className="featuredDesc">{t(appText, language, "cosmicDesc")} </h2>
+              <div className="featuredModels"><CosmicModel /></div>
               <button className="btnGoProject">{t(appText, language, "goProject")} <span></span><span className="arrowUpRight">→</span></button>
             </div>
           </div>
