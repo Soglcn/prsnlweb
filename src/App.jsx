@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import './App.css'
 import Header from "./assets/compHeader/header.jsx";
+import Footer from "./assets/compFooter/footer.jsx";
 
 import appText from "./App.json";
 import { useLanguage } from "./context/LanguageContext";
@@ -108,6 +109,10 @@ function App() {
             </div>
           </div>
 
+        </div>
+
+        <div className="footerMap">
+          <Footer />
         </div>
 
       </main>

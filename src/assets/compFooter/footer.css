@@ -1,0 +1,42 @@
+@import url(../../index.css);
+
+.footerArea {
+    font-family: "Elms";
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 60vh;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+
+.letsCont {
+    font-size: var(--fs-xs);
+    color: var(--text);
+    padding-bottom: 5%;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    height: 33%;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg,
+          #D8CEC0, #7B736A, #D8CEC0) 1;
+    margin-bottom: 10%;
+}
+
+.socLinks {
+    display: flex;
+    justify-content: left;
+    gap: 10%;
+    font-size: var(--fs-xl);
+}
+
+.socLinks a {
+    text-decoration: none;
+    color: var(--text);
+}

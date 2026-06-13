@@ -60,6 +60,7 @@ main {
 
 .btnExplore {
     width: auto;
+    background: none;
     display: flex;
     align-items: center;
     font-family: "Elms";
@@ -81,6 +82,7 @@ main {
 
 .btnResume {
     width: auto;
+    background: none;
     display: none;
     align-items: center;
     font-family: "Elms";
@@ -178,7 +180,6 @@ canvas {
     color: var(--text);
     font-size: var(--fs-xl);
     font-weight: 300;
-    padding-top: 5%;
 }
 
 .featuredDesc {
@@ -190,6 +191,7 @@ canvas {
 
 .btnGoProject {
     width: auto;
+    background: none;
     align-items: center;
     font-family: "Elms";
     font-size: var(--fs-xs);
@@ -295,4 +297,11 @@ canvas {
 
     border-radius: 12px;
     object-fit: cover;
+}
+
+.footerMap{
+    background-color: var(--border);
+    margin-left: -5%;
+    margin-bottom: -5%;
+    margin-top: 5%;
 }

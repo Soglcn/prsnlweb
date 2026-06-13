@@ -43,8 +43,13 @@
   --fs-display: 42pt;
 }
 
-* {
+html{
   background-color: var(--bg);
+    margin: 0;
+  padding: 0;
+}
+
+*{
   margin: 0;
   padding: 0;
 }
