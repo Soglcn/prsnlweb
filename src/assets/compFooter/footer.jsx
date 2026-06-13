@@ -14,6 +14,12 @@ import {
     faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
+import {
+    faPhone,
+    faEnvelope,
+    faLocationDot
+} from "@fortawesome/free-solid-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
@@ -48,8 +54,44 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="catch">catch</div>
-                <div className="contact">contact</div>
+
+                <div className="catch">
+                    <h3 className="aut">
+                        "Aut viam inveniam aut faciam."
+                    </h3>
+                    <img src="/images/sy_dark_logo.png" alt="" />
+                </div>
+
+                <div className="contact">
+                    <h3 className="contactTitle">{t(footText, language, "contact")}</h3>
+
+                    <div className="contactLinks">
+                        <a className="contactItem" href="tel:+905304618269">
+                            <FontAwesomeIcon icon={faPhone} />
+                            <span>+90-(530)-461-8269</span>
+                        </a>
+
+                        <a className="contactItem" href="mailto:info@soglcn.com">
+                            <FontAwesomeIcon icon={faEnvelope} />
+                            <span> info@soglcn.com</span>
+                        </a>
+
+                        <a className="contactItem" href="mailto:oggy@soglcn.com">
+                            <FontAwesomeIcon icon={faEnvelope} />
+                            <span> oggy@soglcn.com</span>
+                        </a>
+
+                        <a
+                            className="contactItem"
+                            href="https://maps.google.com/?q=Çankaya,Ankara,Turkey"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faLocationDot} />
+                            <span> {t(footText, language, "address")}</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </footer>
     );

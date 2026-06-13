@@ -1,17 +1,27 @@
 {
     "en": {
-        "letsCont": "LET'S CONNECT!"
+        "letsCont": "SOCIAL LINKS",
+        "contact": "GET IN TOUCH",
+        "address": "Cankaya, Ankara - TURKIYE"
     },
     "tr": {
-        "letsCont": "BAĞLANTIDA KALALIM!"
+        "letsCont": "SOSYAL BAĞLANTILAR",
+        "contact": "İLETİŞİME GEÇ",
+        "address": "Çankaya, Ankara • TÜRKİYE"
     },
     "fr": {
-        "letsCont": "RESTONS CONNECTÉS !"
+        "letsCont": "LIENS SOCIAUX",
+        "contact": "PRENONS CONTACT",
+        "address": "Çankaya, Ankara • TURQUIE"
     },
     "es": {
-        "letsCont": "¡MANTENGÁMONOS CONECTADOS!"
+        "letsCont": "ENLACES SOCIALES",
+        "contact": "PONTE EN CONTACTO",
+         "address": "Çankaya, Ankara • TURQUÍA"
     },
     "it": {
-        "letsCont": "RESTIAMO CONNESSI!"
+        "letsCont": "LINK SOCIALI",
+        "contact": "METTIAMOCI IN CONTATTO",
+        "address": "Çankaya, Ankara • TURCHIA"
     }
 }
