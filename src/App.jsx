@@ -20,7 +20,18 @@ import CosmicModel from "./assets/CosmicModel.jsx";
 import About from "./pages/about/about";
 
 import Projects from "./pages/projects/projects";
+
+
 import Xeno from "./pages/projects/xeno";
+import Meow from "./pages/projects/moewditation";
+import Contamination from "./pages/projects/cosmic-contamination";
+import Sol from "./pages/projects/sol66.jsx";
+import FinX from "./pages/projects/finx.jsx";
+import Arch from "./pages/projects/archeadict.jsx";
+import Dim from "./pages/projects/dimengine.jsx";
+import Ignitaria from "./pages/projects/ignitaria.jsx";
+import Quad1 from "./pages/projects/quadrushers-1.jsx";
+import Quad2 from "./pages/projects/quadrushers-2.jsx";
 
 function HomePage() {
   const { language } = useLanguage();
@@ -195,9 +206,18 @@ function App() {
 
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<><Header /><About /></>}/>
-    <Route path="/projects" element={<><Header /><Projects /></>}/>
-    <Route path="/projects/xeno" element={<><Header /><Xeno /></>} />
+      <Route path="/about" element={<><Header /><About /></>} />
+      <Route path="/projects" element={<><Header /><Projects /></>} />
+      <Route path="/projects/xeno" element={<><Header /><Xeno /></>} />
+      <Route path="/projects/meowditation" element={<><Header /><Meow /></>} />
+      <Route path="/projects/cosmic-contamination" element={<><Header /><Contamination /></>} />
+      <Route path="/projects/sol66" element={<><Header /><Sol /></>} />
+      <Route path="/projects/finx" element={<><Header /><FinX /></>} />
+      <Route path="/projects/archeadict" element={<><Header /><Arch /></>} />
+      <Route path="/projects/dimengine" element={<><Header /><Dim /></>} />
+      <Route path="/projects/ignitaria" element={<><Header /><Ignitaria /></>} />
+      <Route path="/projects/quadrushers-1" element={<><Header /><Quad1 /></>} />
+      <Route path="/projects/quadrushers-2" element={<><Header /><Quad2 /></>} />
     </Routes>
   );
 }

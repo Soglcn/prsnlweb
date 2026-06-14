@@ -1,5 +1,5 @@
 import "./inProjects.css";
-import pt from "./xeno.json";
+import pt from "./ignitaria.json";
 import { Link } from "react-router-dom";
 
 import { useLanguage } from "../../context/LanguageContext";
@@ -16,7 +16,7 @@ import {
     faCalendarDays
 } from "@fortawesome/free-solid-svg-icons";
 
-function Xeno() {
+function Ignitaria() {
     const { language } = useLanguage();
 
     return (
@@ -24,7 +24,7 @@ function Xeno() {
 
             <div className="base">
                 <Link to="/projects" className="backButton">{t(pt, language, "back")}</Link>
-                <img className="headImg" src="/images/projects/xeno.png" alt="" />
+                <img className="headImg" src="/images/projects/ignitaria.png" alt="" />
 
                 <div className="headAr">
                     <h1>{t(pt, language, "title")}</h1>
@@ -89,9 +89,9 @@ function Xeno() {
                     <h1>{t(pt, language, "techs")}</h1>
                     <div className="uTech">
                         <div className="techLabel"> Unreal Engine 5 </div>
-                        <div className="techLabel"> Blender3D </div>
-                        <div className="techLabel"> Substance Painter </div>
+                        <div className="techLabel"> Blender 3D </div>
                         <div className="techLabel"> FLStudio </div>
+                        <div className="techLabel"> Photoshop </div>
                         
                     </div>
                 </div>
@@ -111,4 +111,4 @@ function Xeno() {
     );
 }
 
-export default Xeno;
+export default Ignitaria;
