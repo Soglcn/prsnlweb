@@ -18,6 +18,7 @@ import XenoModel from "./assets/XenoModel.jsx";
 import MeowModel from "./assets/MeowModel.jsx";
 import CosmicModel from "./assets/CosmicModel.jsx";
 import About from "./pages/about/about";
+import Projects from "./pages/projects/projects";
 
 function HomePage() {
   const { language } = useLanguage();
@@ -192,15 +193,8 @@ function App() {
 
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route
-        path="/about"
-        element={
-          <>
-            <Header />
-            <About />
-          </>
-        }
-      />
+      <Route path="/about" element={<><Header /><About /></>}/>
+    <Route path="/projects" element={<><Header /><Projects /></>}/>
     </Routes>
   );
 }

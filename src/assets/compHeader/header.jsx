@@ -29,11 +29,25 @@ function Header() {
             <nav className={`headerNav ${menuOpen ? "active" : ""}`}>
                 <img src={logo} className="menuLogo" alt="SY Logo" />
 
-                <Link to="/">{t(headerText, language, "home")}</Link>
-                <Link to="/projects">{t(headerText, language, "projects")}</Link>
-                <Link to="/about">{t(headerText, language, "about")}</Link>
-                <Link to="/contact">{t(headerText, language, "contact")}</Link>
-                <Link to="/contact">{t(headerText, language, "resume")}</Link>
+                <Link to="/" onClick={() => setMenuOpen(false)}>
+                    {t(headerText, language, "home")}
+                </Link>
+
+                <Link to="/projects" onClick={() => setMenuOpen(false)}>
+                    {t(headerText, language, "projects")}
+                </Link>
+
+                <Link to="/about" onClick={() => setMenuOpen(false)}>
+                    {t(headerText, language, "about")}
+                </Link>
+
+                <Link to="/contact" onClick={() => setMenuOpen(false)}>
+                    {t(headerText, language, "contact")}
+                </Link>
+
+                <Link to="/contact" onClick={() => setMenuOpen(false)}>
+                    {t(headerText, language, "resume")}
+                </Link>
                 <button
                     className="btnCloseMenu"
                     onClick={() => setMenuOpen(false)}

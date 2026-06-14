@@ -1,0 +1,32 @@
+{
+    "en": {
+        "title": "Projects",
+        "projectsCatch": "A collection of selected projects and digital creations.",
+        "pnNot": "PROFESSIONAL NOTICE",
+        "pnExp": "This page showcases selected personal and publicly available projects. Works developed as part of a company, institution or professional team are not included due to legal, ethical and confidentiality obligations."
+    },
+    "tr": {
+        "title": "Projeler",
+        "projectsCatch": "Seçilmiş projelerim ve dijital çalışmalarımın bir koleksiyonu.",
+        "pnNot": "PROFESYONEL BİLDİRİM",
+        "pnExp": "Bu sayfa seçilmiş kişisel ve kamuya açık projeleri sergilemektedir. Şirketler, kurumlar veya profesyonel ekipler bünyesinde geliştirilen çalışmalar; yasal, etik ve gizlilik yükümlülükleri nedeniyle burada yer almamaktadır."
+    },
+    "fr": {
+        "title": "Projets",
+        "projectsCatch": "Une collection de projets sélectionnés et de créations numériques.",
+        "pnNot": "AVIS PROFESSIONNEL",
+        "pnExp": "Cette page présente une sélection de projets personnels et publics. Les travaux réalisés au sein d’une entreprise, d’une institution ou d’une équipe professionnelle ne sont pas inclus en raison d’obligations légales, éthiques et de confidentialité."
+    },
+    "es": {
+        "title": "Proyectos",
+        "projectsCatch": "Una colección de proyectos seleccionados y creaciones digitales.",
+        "pnNot": "AVISO PROFESIONAL",
+        "pnExp": "Esta página presenta una selección de proyectos personales y de acceso público. Los trabajos desarrollados dentro de una empresa, institución o equipo profesional no se incluyen debido a obligaciones legales, éticas y de confidencialidad."
+    },
+    "it": {
+        "title": "Progetti",
+        "projectsCatch": "Una raccolta di progetti selezionati e creazioni digitali.",
+        "pnNot": "AVVISO PROFESSIONALE",
+        "pnExp": "Questa pagina presenta una selezione di progetti personali e pubblicamente disponibili. I lavori sviluppati all'interno di aziende, istituzioni o team professionali non sono inclusi a causa di obblighi legali, etici e di riservatezza."
+    }
+}
