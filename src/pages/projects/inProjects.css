@@ -1,0 +1,212 @@
+@import url(../../index.css);
+
+.base {
+    width: 100vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    overflow-x: hidden;
+}
+
+.headImg {
+    width: 120%;
+    margin-left: -7%;
+    margin-top: 5%;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+    border-top-left-radius: 25%;
+}
+
+.backButton {
+    text-decoration: none;
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.headAr {
+    margin-top: -50%;
+    padding: 5%;
+    mix-blend-mode: difference;
+    color: white;
+    text-align: right;
+}
+
+.headAr h1 {
+    font-size: var(--fs-md);
+}
+
+.headAr p {
+    font-family: "Elms";
+    font-size: var(--fs-xxs);
+    margin-left: 15%;
+}
+
+.statAr {
+    width: 100%;
+    margin-left: -10%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    background-color: var(--bg-secondary);
+    backdrop-filter: blur(8px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 18px 25px rgba(0, 0, 0, 0.16);
+}
+
+.stStat,
+.stRole,
+.stTech,
+.stYear {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.stStat,
+.stRole {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.stStat,
+.stTech {
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    text-align: left;
+    margin-left: 5%;
+}
+
+.statAr h1 {
+    gap: 0.6rem;
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--text);
+}
+
+.statAr h2 {
+    font-family: "Elms";
+    font-size: var(--fs-xxs);
+    font-weight: 300;
+    line-height: 1;
+    color: var(--text);
+    opacity: 0.8;
+    margin: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.over {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.over h1 {
+    font-family: "Elms";
+    font-size: var(--fs-md);
+    color: var(--accent);
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+}
+
+.over p {
+    color: var(--text);
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    width: 85%;
+}
+
+.usedTechs {
+    padding-top: 10%;
+}
+
+.usedTechs h1 {
+    font-family: "Elms";
+    font-size: var(--fs-md);
+    color: var(--accent);
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+}
+
+.uTech {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 3%;
+    scrollbar-width: none;
+    width: 110%;
+    margin-left: -5%;
+    padding-right: 5%;
+}
+
+
+.techLabel {
+    font-size: var(--fs-xs);
+    background-color: var(--bg-secondary);
+    font-family: "Elms";
+    border: 1px solid var(--stone);
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.moreDetail {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    padding: 5%;
+    border-radius: 25px;
+    color: var(--text);
+    border: 1px solid var(--stone);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+.goddess {
+    width: 35%;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.detTextArea {
+    width: 65%;
+    padding-left: 5%;
+}
+
+.detTextArea h1 {
+    font-family: "Lora";
+    font-size: var(--fs-md);
+}
+
+.detTextArea p {
+    font-family: "Elms";
+    font-size: var(--fs-xxs);
+    color: var(--text-light);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.btnCont {
+    font-family: "Elms";
+    font-size: var(--fs-xxs);
+    color: var(--accent);
+    text-align: center;
+    border: none;
+    background: none;
+}

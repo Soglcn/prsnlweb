@@ -1,6 +1,6 @@
 {
     "en": {
-        "back": "Back",
+        "back": "← Back",
         "title": "Xeno",
         "subtitle": "Uncover the anomalies hidden in the shadows of the past.",
         "stStat": "Status",
@@ -19,7 +19,7 @@
         "getContact": "Get in Touch"
     },
     "tr": {
-        "back": "Geri",
+        "back": "← Geri",
         "title": "Xeno",
         "subtitle": "Geçmişin gölgelerinde saklanan anomalileri ortaya çıkarın.",
         "stStat": "Durum",
@@ -38,7 +38,7 @@
         "getContact": "İletişime Geç"
     },
     "fr": {
-        "back": "Retour",
+        "back": "← Retour",
         "title": "Xeno",
         "subtitle": "Révélez les anomalies cachées dans les ombres du passé.",
         "stStat": "Statut",
@@ -57,7 +57,7 @@
         "getContact": "Me Contacter"
     },
     "es": {
-        "back": "Volver",
+        "back": "← Volver",
         "title": "Xeno",
         "subtitle": "Descubre las anomalías ocultas en las sombras del pasado.",
         "stStat": "Estado",
@@ -76,7 +76,7 @@
         "getContact": "Contactar"
     },
     "it": {
-        "back": "Indietro",
+        "back": "← Indietro",
         "title": "Xeno",
         "subtitle": "Scopri le anomalie nascoste nelle ombre del passato.",
         "stStat": "Stato",
