@@ -1,43 +1,47 @@
 {
     "en": {
-        "home": "Home",
-        "projects": "Projects",
-        "about": "About",
-        "contact": "Contact",
-        "close": "Close",
-        "resume": "Resume"
+        "title": "About Me",
+        "aboutCatch": "Uncovering the past. Designing the future. Connecting history, technology and imagination.",
+        "journey": "The Journey",
+        "bio_1": "I was born in Ankara, Türkiye, in 1998. From an early age, I developed interests in mathematics, music, history, and a variety of other disciplines. My creative journey began with music education, theater, and storytelling, eventually leading me toward technology and design. At the age of sixteen, I entered the world of software development and 3D design through a hydroponic agriculture project I developed. This experience transformed my technical curiosity into a lasting passion and placed interdisciplinary creation at the center of my work.",
+        "bio_2": "While studying Archaeology at Gazi University, I participated in archaeological excavations and contributed to digital archaeology projects. During this period, I gained experience in historical research, visualization, and digital production while continuing to work in software development, design, and interactive media.",
+        "bio_3": "During the pandemic, I joined independent game development teams and worked on my own 3D visualization platform. In the following years, I contributed to simulation and serious game projects developed for the defense industry, specializing in game systems, user experience, and interactive technologies.",
+        "bio_4": "After working on architectural and digital experience projects in 2024, I began my master's studies in Computer Graphics and Game Technologies at Hacettepe University. Today, I continue my work at the intersection of game design, simulation technologies, digital heritage, 3D production, and interactive media."
     },
     "tr": {
-        "home": "Ana Sayfa",
-        "projects": "Projeler",
-        "about": "Hakkımda",
-        "contact": "İletişim",
-        "close": "Kapat",
-        "resume": "Özgeçmiş"
+        "title": "Hakkımda",
+        "aboutCatch": "Geçmişi keşfediyor, geleceği tasarlıyorum. Tarihi, teknolojiyi ve hayal gücünü bir araya getiriyorum.",
+        "journey": "Yolculuğum",
+        "bio_1": "1998 yılında Ankara’da doğdum. Küçük yaşlardan itibaren matematik, müzik, tarih ve farklı disiplinlere ilgi duydum. Müzik eğitimi, tiyatro ve hikâye anlatıcılığıyla başlayan üretim yolculuğum, zamanla teknoloji ve tasarım alanlarına yöneldi. On altı yaşımda geliştirdiğim bir hidroponik tarım projesiyle yazılım ve üç boyutlu tasarım dünyasına adım attım. Bu deneyim, teknik üretime olan ilgimi kalıcı bir tutkuya dönüştürerek disiplinler arası çalışmaların merkezine taşıdı.",
+        "bio_2": "Gazi Üniversitesi Arkeoloji Bölümü’nde eğitim alırken arkeolojik kazılara katıldım ve dijital arkeoloji projelerinde görev aldım. Bu süreçte tarihsel araştırma, görselleştirme ve dijital üretim alanlarında deneyim kazanırken; aynı zamanda yazılım, tasarım ve etkileşimli medya üzerine çalışmalarımı sürdürdüm.",
+        "bio_3": "Pandemi döneminde bağımsız oyun geliştirme ekiplerinde yer aldım ve kendi üç boyutlu görüntüleme platformum üzerinde çalıştım. Sonraki yıllarda savunma sanayii için geliştirilen simülasyon ve ciddi oyun projelerinde görev alarak oyun sistemleri, kullanıcı deneyimi ve etkileşimli teknolojiler üzerine uzmanlaştım.",
+        "bio_4": "2024 yılında mimarlık ve dijital deneyim alanlarında çalışmalar yürüttükten sonra Hacettepe Üniversitesi’nde Bilgisayar Grafikleri ve Oyun Teknolojileri yüksek lisans programına başladım. Günümüzde çalışmalarımı oyun tasarımı, simülasyon teknolojileri, dijital miras, üç boyutlu üretim ve etkileşimli medya alanlarının kesişiminde sürdürüyorum."
     },
     "fr": {
-        "home": "Accueil",
-        "projects": "Projets",
-        "about": "À propos",
-        "contact": "Contact",
-        "close": "Fermer",
-        "resume": "CV"
-
+        "title": "À Propos",
+        "aboutCatch": "Révéler le passé. Concevoir l’avenir. Relier l’histoire, la technologie et l’imagination.",
+        "journey": "Le Parcours",
+        "bio_1": "Je suis né à Ankara, en Turquie, en 1998. Dès mon plus jeune âge, je me suis intéressé aux mathématiques, à la musique, à l’histoire et à de nombreux autres domaines. Mon parcours créatif a commencé avec l’apprentissage de la musique, le théâtre et la narration, avant de s’orienter progressivement vers la technologie et le design. À l’âge de seize ans, j’ai découvert le monde du développement logiciel et de la conception 3D grâce à un projet d’agriculture hydroponique que j’ai développé. Cette expérience a transformé ma curiosité technique en une passion durable et a placé l’interdisciplinarité au cœur de mon travail.",
+        "bio_2": "Pendant mes études en archéologie à l’Université de Gazi, j’ai participé à plusieurs fouilles archéologiques et contribué à des projets d’archéologie numérique. Cette période m’a permis d’acquérir de l’expérience en recherche historique, visualisation et production numérique, tout en poursuivant mes activités dans le développement logiciel, le design et les médias interactifs.",
+        "bio_3": "Durant la pandémie, j’ai rejoint plusieurs équipes indépendantes de développement de jeux vidéo et travaillé sur ma propre plateforme de visualisation 3D. Par la suite, j’ai contribué à des projets de simulation et de serious games destinés à l’industrie de la défense, en me spécialisant dans les systèmes de jeu, l’expérience utilisateur et les technologies interactives.",
+        "bio_4": "Après avoir travaillé sur des projets liés à l’architecture et aux expériences numériques en 2024, j’ai commencé un master en infographie et technologies du jeu à l’Université Hacettepe. Aujourd’hui, je poursuis mes activités à l’intersection du game design, des technologies de simulation, du patrimoine numérique, de la production 3D et des médias interactifs."
     },
     "es": {
-        "home": "Inicio",
-        "projects": "Proyectos",
-        "about": "Sobre mí",
-        "contact": "Contacto",
-        "close": "Cerrar",
-        "resume": "Currículum"
+        "title": "Sobre Mí",
+        "aboutCatch": "Descubriendo el pasado. Diseñando el futuro. Conectando historia, tecnología e imaginación.",
+        "journey": "El Viaje",
+        "bio_1": "Nací en Ankara, Turquía, en 1998. Desde muy joven desarrollé un interés por las matemáticas, la música, la historia y diversas disciplinas. Mi trayectoria creativa comenzó con la educación musical, el teatro y la narración de historias, y con el tiempo se orientó hacia la tecnología y el diseño. A los dieciséis años me adentré en el mundo del desarrollo de software y el diseño 3D gracias a un proyecto de agricultura hidropónica que desarrollé. Esta experiencia transformó mi curiosidad técnica en una pasión duradera y situó el trabajo interdisciplinario en el centro de mi trayectoria profesional.",
+        "bio_2": "Mientras estudiaba Arqueología en la Universidad de Gazi, participé en excavaciones arqueológicas y colaboré en proyectos de arqueología digital. Durante este período adquirí experiencia en investigación histórica, visualización y producción digital, al mismo tiempo que continuaba desarrollando proyectos relacionados con el software, el diseño y los medios interactivos.",
+        "bio_3": "Durante la pandemia formé parte de equipos independientes de desarrollo de videojuegos y trabajé en mi propia plataforma de visualización 3D. En los años siguientes participé en proyectos de simulación y serious games destinados a la industria de defensa, especializándome en sistemas de juego, experiencia de usuario y tecnologías interactivas.",
+        "bio_4": "Tras trabajar en proyectos de arquitectura y experiencias digitales en 2024, comencé mis estudios de maestría en Gráficos por Computadora y Tecnologías de Juegos en la Universidad de Hacettepe. Actualmente continúo desarrollando mi trabajo en la intersección del diseño de juegos, las tecnologías de simulación, el patrimonio digital, la producción 3D y los medios interactivos."
     },
     "it": {
-        "home": "Inizio",
-        "projects": "Progetti",
-        "about": "Chi sono",
-        "contact": "Contatti",
-        "close": "Chiudi",
-        "resume": "Curriculum"
+        "title": "Chi Sono",
+        "aboutCatch": "Riscoprire il passato. Progettare il futuro. Collegare storia, tecnologia e immaginazione.",
+        "journey": "Il Percorso",
+        "bio_1": "Sono nato ad Ankara, in Turchia, nel 1998. Fin da giovane ho sviluppato un forte interesse per la matematica, la musica, la storia e molte altre discipline. Il mio percorso creativo è iniziato con lo studio della musica, il teatro e la narrazione, per poi orientarsi progressivamente verso la tecnologia e il design. All'età di sedici anni sono entrato nel mondo dello sviluppo software e della progettazione 3D grazie a un progetto di agricoltura idroponica che ho sviluppato. Questa esperienza ha trasformato la mia curiosità tecnica in una passione duratura, ponendo l'interdisciplinarità al centro del mio lavoro.",
+        "bio_2": "Durante gli studi in Archeologia presso l'Università di Gazi, ho partecipato a scavi archeologici e contribuito a progetti di archeologia digitale. In questo periodo ho acquisito esperienza nella ricerca storica, nella visualizzazione e nella produzione digitale, continuando al contempo a lavorare nei campi dello sviluppo software, del design e dei media interattivi.",
+        "bio_3": "Durante la pandemia ho collaborato con team indipendenti di sviluppo videoludico e ho lavorato alla mia piattaforma di visualizzazione 3D. Negli anni successivi ho contribuito a progetti di simulazione e serious games destinati all'industria della difesa, specializzandomi in sistemi di gioco, esperienza utente e tecnologie interattive.",
+        "bio_4": "Dopo aver lavorato a progetti di architettura ed esperienze digitali nel 2024, ho iniziato il mio percorso di laurea magistrale in Computer Graphics e Tecnologie del Gioco presso l'Università di Hacettepe. Oggi continuo a sviluppare il mio lavoro all'intersezione tra game design, tecnologie di simulazione, patrimonio digitale, produzione 3D e media interattivi."
     }
 }

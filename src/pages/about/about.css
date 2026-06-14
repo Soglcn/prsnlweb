@@ -1,0 +1,49 @@
+@import url(../../index.css);
+
+.abHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 90vw;
+    padding-left: 5%;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.abTopTitle{
+    font-family: "Elms";
+    font-size: var(--fs-md);
+    color: var(--accent);
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.abContext{
+    display: flex;
+    flex-direction: column;
+}
+
+.abContext img{
+    width: 100%;
+    margin-left: -7%;
+}
+
+.abCatch{
+    font-family: "Lora";
+    text-align: left;
+    width: 85%;
+    font-size: var(--fs-md);
+}
+
+.abHistory{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.abHistory p{
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    width: 90vw;
+    text-align: justify;
+}
