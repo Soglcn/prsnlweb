@@ -73,6 +73,7 @@ main {
     color: var(--text);
     white-space: nowrap;
     text-align: justify;
+    text-decoration: none;
 }
 
 .arrowUpRight {

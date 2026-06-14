@@ -32,6 +32,16 @@ import Dim from "./pages/projects/dimengine.jsx";
 import Ignitaria from "./pages/projects/ignitaria.jsx";
 import Quad1 from "./pages/projects/quadrushers-1.jsx";
 import Quad2 from "./pages/projects/quadrushers-2.jsx";
+import Torch from "./pages/projects/torch.jsx";
+import Ash from "./pages/projects/ash.jsx";
+import Best from "./pages/projects/best.jsx";
+import Fyrane from "./pages/projects/fyrane.jsx";
+import Muse from "./pages/projects/muse.jsx";
+import Agri from "./pages/projects/agri.jsx";
+import FitX from "./pages/projects/fitx.jsx";
+import Gateway from "./pages/projects/gateway.jsx";
+import Veren from "./pages/projects/veren.jsx";
+import Sima from "./pages/projects/sima.jsx";
 
 function HomePage() {
   const { language } = useLanguage();
@@ -53,11 +63,11 @@ function HomePage() {
               </h2>
               <h2 className="wlcCatch">{t(appText, language, "catch")}</h2>
 
-              <button className="btnExplore">
+              <Link to="/projects" className="btnExplore">
                 {t(appText, language, "explore")}
                 <span></span>
                 <span className="arrowUpRight">→</span>
-              </button>
+              </Link>
 
               <button className="btnResume">
                 {t(appText, language, "resume")}
@@ -95,11 +105,11 @@ function HomePage() {
                 <XenoModel />
               </div>
 
-              <button className="btnGoProject">
+              <Link to="/projects/xeno" className="btnGoProject">
                 {t(appText, language, "goProject")}
                 <span></span>
                 <span className="arrowUpRight">→</span>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -115,11 +125,11 @@ function HomePage() {
                 <MeowModel />
               </div>
 
-              <button className="btnGoProject">
+              <Link to="/projects/meowditation" className="btnGoProject">
                 {t(appText, language, "goProject")}
                 <span></span>
                 <span className="arrowUpRight">→</span>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -135,11 +145,11 @@ function HomePage() {
                 <CosmicModel />
               </div>
 
-              <button className="btnGoProject">
+              <Link to="/projects/cosmic-contamination" className="btnGoProject">
                 {t(appText, language, "goProject")}
                 <span></span>
                 <span className="arrowUpRight">→</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -218,6 +228,16 @@ function App() {
       <Route path="/projects/ignitaria" element={<><Header /><Ignitaria /></>} />
       <Route path="/projects/quadrushers-1" element={<><Header /><Quad1 /></>} />
       <Route path="/projects/quadrushers-2" element={<><Header /><Quad2 /></>} />
+      <Route path="/projects/torchbearer" element={<><Header /><Torch /></>} />
+      <Route path="/projects/the-ash-of-faith" element={<><Header /><Ash /></>} />
+      <Route path="/projects/bestselfer-cloud" element={<><Header /><Best /></>} />
+      <Route path="/projects/fyrane-cloud" element={<><Header /><Fyrane /></>} />
+      <Route path="/projects/mus-e" element={<><Header /><Muse /></>} />
+      <Route path="/projects/analytical-agriculture" element={<><Header /><Agri /></>} />
+      <Route path="/projects/fitx" element={<><Header /><FitX /></>} />
+      <Route path="/projects/gateway" element={<><Header /><Gateway /></>} />
+      <Route path="/projects/veren" element={<><Header /><Veren /></>} />
+      <Route path="/projects/sima" element={<><Header /><Sima /></>} />
     </Routes>
   );
 }
