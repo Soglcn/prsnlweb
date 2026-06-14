@@ -43,13 +43,41 @@
   --fs-display: 42pt;
 }
 
-html{
+html {
   background-color: var(--bg);
-    margin: 0;
-  padding: 0;
-}
-
-*{
   margin: 0;
   padding: 0;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html,
+body,
+#root {
+  width: 100vw;
+  min-height: 100%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s ease;
+  will-change: opacity, transform;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
 }

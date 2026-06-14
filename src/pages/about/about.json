@@ -1,0 +1,43 @@
+{
+    "en": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact",
+        "close": "Close",
+        "resume": "Resume"
+    },
+    "tr": {
+        "home": "Ana Sayfa",
+        "projects": "Projeler",
+        "about": "Hakkımda",
+        "contact": "İletişim",
+        "close": "Kapat",
+        "resume": "Özgeçmiş"
+    },
+    "fr": {
+        "home": "Accueil",
+        "projects": "Projets",
+        "about": "À propos",
+        "contact": "Contact",
+        "close": "Fermer",
+        "resume": "CV"
+
+    },
+    "es": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "about": "Sobre mí",
+        "contact": "Contacto",
+        "close": "Cerrar",
+        "resume": "Currículum"
+    },
+    "it": {
+        "home": "Inizio",
+        "projects": "Progetti",
+        "about": "Chi sono",
+        "contact": "Contatti",
+        "close": "Chiudi",
+        "resume": "Curriculum"
+    }
+}

@@ -203,6 +203,7 @@ canvas {
     color: var(--text-faint);
     white-space: nowrap;
     text-align: justify;
+    text-decoration: none;
 }
 
 .featuredModels {

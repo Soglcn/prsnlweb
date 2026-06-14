@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Header from "./assets/compHeader/header.jsx";
@@ -18,7 +18,9 @@ import XenoModel from "./assets/XenoModel.jsx";
 import MeowModel from "./assets/MeowModel.jsx";
 import CosmicModel from "./assets/CosmicModel.jsx";
 
-function App() {
+import About from "./pages/about/about";
+
+function HomePage() {
   const { language } = useLanguage();
 
   useReveal();
@@ -60,9 +62,7 @@ function App() {
 
         <div className="selectedProjects reveal reveal-up">
           <div className="selTitle">
-            <h3 className="selSub">
-              {t(appText, language, "selectedWorks")}
-            </h3>
+            <h3 className="selSub">{t(appText, language, "selectedWorks")}</h3>
 
             <div className="compassLine">
               <img src={compassIcon} alt="Compass" />
@@ -147,11 +147,15 @@ function App() {
             <div className="abText reveal reveal-left">
               <p className="abMe">{t(appText, language, "abMe")}</p>
 
-              <button className="btnGoProject">
+              <Link
+                to="/about"
+                className="btnGoProject"
+                style={{ display: "inline-block" }}
+              >
                 {t(appText, language, "more")}
                 <span></span>
                 <span className="arrowUpRight">→</span>
-              </button>
+              </Link>
             </div>
 
             <div className="mePhoto reveal reveal-right">
@@ -181,6 +185,23 @@ function App() {
         </div>
       </main>
     </>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route
+        path="/about"
+        element={
+          <>
+            <Header />
+            <About />
+          </>
+        }
+      />
+    </Routes>
   );
 }
 
