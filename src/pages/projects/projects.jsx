@@ -84,7 +84,7 @@ function Projects() {
                             <img src={project.image} alt={project.title} className="projectImage" />
                             <div className="projectContent">
                                 <h3>{project.title}</h3>
-                                <span className="projectButton">{t(pbt, language, "viewProject")}</span>
+
                             </div>
                         </Link>
                     ))}

@@ -75,7 +75,7 @@ function About() {
             <div className="aboutStats reveal">
                 <div className="statItem">
                     <span className="statNumber">
-                        <Counter target={32} />
+                        <Counter target={43} />
                     </span>
                     <span className="statLabel">
                         {t(abt, language, "projects")}
@@ -97,7 +97,7 @@ function About() {
 
                 <div className="statItem">
                     <span className="statNumber">
-                        <Counter target={9} />
+                        <Counter target={8} />
                     </span>
                     <span className="statLabel">
                         {t(abt, language, "experience")}
