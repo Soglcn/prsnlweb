@@ -1,0 +1,142 @@
+[
+    {
+        "id": "xeno",
+        "title": "Xeno",
+        "type": "game",
+        "image": "/images/projects/xeno.png",
+        "link": "/projects/xeno"
+    },
+    {
+        "id": "meowditation",
+        "title": "Meowditation",
+        "type": "app",
+        "image": "/images/projects/meowditation.png",
+        "link": "/projects/meowditation"
+    },
+    {
+        "id": "cosmic-contamination",
+        "title": "Cosmic Contamination",
+        "type": "game",
+        "image": "/images/projects/cosmic-contamination.png",
+        "link": "/projects/cosmic-contamination"
+    },
+    {
+        "id": "sol66",
+        "title": "SOL66",
+        "type": "game",
+        "image": "/images/projects/sol66.png",
+        "link": "/projects/sol66"
+    },
+    {
+        "id": "finx",
+        "title": "FinX",
+        "type": "app",
+        "image": "/images/projects/finx.png",
+        "link": "/projects/finx"
+    },
+    {
+        "id": "archeadict",
+        "title": "Archeadict",
+        "type": "web",
+        "image": "/images/projects/archeadict.png",
+        "link": "/projects/archeadict"
+    },
+    {
+        "id": "dimengine",
+        "title": "DimEngine",
+        "type": "tool",
+        "image": "/images/projects/dimengine.png",
+        "link": "/projects/dimengine"
+    },
+    {
+        "id": "ignitaria",
+        "title": "Ignitaria",
+        "type": "game",
+        "image": "/images/projects/ignitaria.png",
+        "link": "/projects/ignitaria"
+    },
+    {
+        "id": "quadrushers-1",
+        "title": "Quadrushers I",
+        "type": "game",
+        "image": "/images/projects/quadrushers-1.png",
+        "link": "/projects/quadrushers-1"
+    },
+    {
+        "id": "quadrushers-2",
+        "title": "Quadrushers II",
+        "type": "simulation",
+        "image": "/images/projects/quadrushers-2.png",
+        "link": "/projects/quadrushers-2"
+    },
+    {
+        "id": "torchbearer",
+        "title": "Torchbearer",
+        "type": "game",
+        "image": "/images/projects/torchbearer.png",
+        "link": "/projects/torchbearer"
+    },
+    {
+        "id": "the-ash-of-faith",
+        "title": "The Ash of Faith",
+        "type": "game",
+        "image": "/images/projects/the-ash-of-faith.png",
+        "link": "/projects/the-ash-of-faith"
+    },
+    {
+        "id": "bestselfer-cloud",
+        "title": "BestSelfer Cloud",
+        "type": "web",
+        "image": "/images/projects/bestselfer-cloud.png",
+        "link": "/projects/bestselfer-cloud"
+    },
+    {
+        "id": "fyrane-cloud",
+        "title": "Fyrane Cloud",
+        "type": "web",
+        "image": "/images/projects/fyrane-cloud.png",
+        "link": "/projects/fyrane-cloud"
+    },
+    {
+        "id": "mus-e",
+        "title": "MUS-E",
+        "type": "simulation",
+        "image": "/images/projects/mus-e.png",
+        "link": "/projects/mus-e"
+    },
+    {
+        "id": "analytical-agriculture",
+        "title": "Analytical Agriculture",
+        "type": "tool",
+        "image": "/images/projects/analytical-agriculture.png",
+        "link": "/projects/analytical-agriculture"
+    },
+    {
+        "id": "fitx",
+        "title": "FitX",
+        "type": "app",
+        "image": "/images/projects/fitx.png",
+        "link": "/projects/fitx"
+    },
+    {
+        "id": "gateway",
+        "title": "Gateway",
+        "type": "tool",
+        "image": "/images/projects/gateway.png",
+        "link": "/projects/gateway"
+    },
+    {
+        "id": "veren",
+        "title": "Veren",
+        "type": "app",
+        "image": "/images/projects/veren.png",
+        "link": "/projects/veren"
+    },
+    {
+        "id": "sima",
+        "title": "SimA",
+        "type": "web",
+        "image": "/images/projects/sima.png",
+        "link": "/projects/sima"
+    }
+]

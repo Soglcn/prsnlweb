@@ -46,18 +46,18 @@
     background-color: var(--border-light);
 }
 
-.prNotice span{
+.prNotice span {
     background-color: var(--text-light);
     width: 5%;
 }
 
-.pnText{
+.pnText {
     width: 95%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.pnIcon{
+.pnIcon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,14 +66,117 @@
     color: var(--text-light);
 }
 
-.pnHeader{
+.pnHeader {
     font-family: "Lora";
     font-weight: 600;
     font-size: var(--fs-xs);
 }
 
-.pnExpText{
+.pnExpText {
     font-family: "Elms";
     font-size: var(--fs-xxs);
     font-weight: 300;
+    width: 95%;
+}
+
+.projectGrid {
+    width: 100%;
+    margin: 1rem auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.projectCard {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+
+    overflow: hidden;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+
+    box-shadow: 0 8px 20px var(--shadow);
+
+    transition: transform .25s ease;
+}
+
+
+.projectImage {
+    width: 100%;
+    object-fit: cover;
+
+    display: block;
+}
+
+.projectContent {
+    padding: 1rem;
+}
+
+.projectContent h3 {
+    font-size: var(--fs-md);
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+.projectButton {
+    font-family: "Elms";
+    display: inline-flex;
+    align-items: center;
+    color: var(--text-light);
+    font-size: var(--fs-xxs);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.projectFilters {
+    width: 110%;
+    margin: 2rem auto;
+
+    margin-left: -5%;
+
+    padding-left: 5%;
+    font-family: "Elms";
+    display: flex;
+    gap: .75rem;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.projectFilters::-webkit-scrollbar {
+    display: none;
+}
+
+.projectFilter {
+    flex-shrink: 0;
+
+    padding: .65rem 1rem;
+
+    border: 1px solid var(--border);
+    border-radius: 999px;
+
+    background: var(--surface);
+
+    color: var(--text-light);
+    font-size: var(--fs-xs);
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition: .25s ease;
+}
+
+.projectFilter:hover {
+    background: var(--bg-secondary);
+}
+
+.projectFilter.active {
+    background: var(--accent);
+    border-color: var(--accent);
+
+    color: white;
 }
