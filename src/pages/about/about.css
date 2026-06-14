@@ -1,6 +1,6 @@
 @import url(../../index.css);
 
-.abHead{
+.abHead {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -10,7 +10,7 @@
     padding-top: 5%;
 }
 
-.abTopTitle{
+.abTopTitle {
     font-family: "Elms";
     font-size: var(--fs-md);
     color: var(--accent);
@@ -19,31 +19,106 @@
     padding-bottom: 10%;
 }
 
-.abContext{
+.abContext {
     display: flex;
     flex-direction: column;
 }
 
-.abContext img{
+.abContext img {
     width: 100%;
     margin-left: -7%;
 }
 
-.abCatch{
+.abCatch {
     font-family: "Lora";
     text-align: left;
     width: 85%;
     font-size: var(--fs-md);
 }
 
-.abHistory{
+.abHistory {
     padding-left: 5%;
     padding-top: 5%;
 }
 
-.abHistory p{
+.abHistory p {
     font-family: "Elms";
     font-size: var(--fs-xs);
     width: 90vw;
     text-align: justify;
+    text-indent: 2rem;
+}
+
+.aboutStats {
+    width: 90%;
+    margin: 4rem auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+}
+
+.statNumber {
+    font-family: "Elms";
+    font-size: clamp(2.2rem, 8vw, 4rem);
+    color: var(--accent);
+    line-height: 1;
+}
+
+.statLabel {
+    font-size: var(--fs-xs);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+
+.statDivider {
+    width: 1px;
+    height: 50px;
+    background: var(--border);
+}
+
+.CompAb {
+    width: 100vw;
+    padding-left: 5%;
+}
+
+.skillSet {
+    width: 95vw;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.skillBox {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        background-color: var(--border-light);
+    margin-bottom: 5%;
+}
+
+
+.skillTitle{
+    font-family: "Lora";
+    font-size: var(--fs-md);
+    color: var(--text);
+}
+
+.skillList{
+    font-family: "Elms";
+    font-size: var(--fs-xxs);
+    padding-top: 5%;
+    padding-left: 15%;
+    color: var(--text-light);
 }

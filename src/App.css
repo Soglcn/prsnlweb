@@ -67,10 +67,9 @@ main {
     font-family: "Elms";
     font-size: var(--fs-xs);
     font-weight: 600;
-    gap: 10%;
-    border: 1px solid var(--accent);
+    gap: 5%;
+    border: none;
     margin-top: 5%;
-    padding: 10px 25px 10px 25px;
     color: var(--text);
     white-space: nowrap;
     text-align: justify;

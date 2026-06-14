@@ -17,7 +17,6 @@ import mePhoto from "/images/soyMain.png";
 import XenoModel from "./assets/XenoModel.jsx";
 import MeowModel from "./assets/MeowModel.jsx";
 import CosmicModel from "./assets/CosmicModel.jsx";
-
 import About from "./pages/about/about";
 
 function HomePage() {
@@ -43,7 +42,7 @@ function HomePage() {
               <button className="btnExplore">
                 {t(appText, language, "explore")}
                 <span></span>
-                <span className="arrowUpRight">↗</span>
+                <span className="arrowUpRight">→</span>
               </button>
 
               <button className="btnResume">
@@ -190,6 +189,7 @@ function HomePage() {
 
 function App() {
   return (
+
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route
