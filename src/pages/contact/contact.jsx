@@ -91,7 +91,7 @@ function Contact() {
                             className="cItem"
                         >
                             <FontAwesomeIcon icon={faPhone} />
-                            <span>+90 (530) 461 82 69</span>
+                            <span>+90-(530)-461-8269</span>
                             <FontAwesomeIcon icon={faArrowRight} />
                         </a>
 

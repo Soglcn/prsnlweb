@@ -92,7 +92,7 @@ function Muse() {
                         <div className="techLabel"> TypeScript </div>
                         <div className="techLabel"> Flask </div>
                         <div className="techLabel"> Illustrator </div>
-                        
+
                     </div>
                 </div>
 
@@ -101,7 +101,11 @@ function Muse() {
                     <div className="detTextArea">
                         <h1>{t(pt, language, "wantMore")}</h1>
                         <p>{t(pt, language, "wantContact")}</p>
-                        <button className="btnCont">{t(pt, language, "getContact")} →</button>
+                        <Link to="/contact">
+                            <button className="btnCont">
+                                {t(pt, language, "getContact")} →
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

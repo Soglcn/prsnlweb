@@ -1,9 +1,10 @@
 @import url(../../index.css);
 
 .contMain{
-    width: 90%;
+    width: 100%;
     padding-left: 5%;
     padding-top: 5%;
+    overflow-x: hidden;
 }
 
 .buildHead h3{
@@ -39,7 +40,7 @@
 }
 
 .oggyBoie{
-    width: 100%;
+    width: 90%;
     padding-left: 25%;
     margin-left: 15%;
     position: relative;
@@ -52,10 +53,11 @@
     gap: 14px;
     width: 100%;
     margin-top: 8%;
+    padding-left: 5%;
 }
 
 .cItem {
-    width: 100%;
+    width: 90%;
     min-height: 62px;
 
     display: grid;

@@ -2,6 +2,7 @@ import "./inProjects.css";
 import pt from "./xeno.json";
 import { Link } from "react-router-dom";
 
+
 import { useLanguage } from "../../context/LanguageContext";
 import { t } from "../../utils/translate";
 
@@ -92,7 +93,7 @@ function Xeno() {
                         <div className="techLabel"> Blender3D </div>
                         <div className="techLabel"> Substance Painter </div>
                         <div className="techLabel"> FLStudio </div>
-                        
+
                     </div>
                 </div>
 
@@ -101,7 +102,11 @@ function Xeno() {
                     <div className="detTextArea">
                         <h1>{t(pt, language, "wantMore")}</h1>
                         <p>{t(pt, language, "wantContact")}</p>
-                        <button className="btnCont">{t(pt, language, "getContact")} →</button>
+                        <Link to="/contact">
+                            <button className="btnCont">
+                                {t(pt, language, "getContact")} →
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
