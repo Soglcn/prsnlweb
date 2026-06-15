@@ -1,0 +1,112 @@
+@import url(../../index.css);
+
+.contMain{
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.buildHead h3{
+    font-family: "Elms";
+    font-size: var(--fs-xs);
+    font-weight: 300;
+    color: var(--accent);
+}
+
+.buildHead h1{
+    font-family: "Lora";
+    color: var(--text);
+    font-size: var(--fs-xl);
+}
+
+.feelFree{
+    padding-top: 10%;
+    display: flex;
+}
+
+.feelFree p{
+    width: 75%;
+    position: absolute;
+    margin-top: 75%;
+    font-family: "Elms";
+    font-weight: 100;
+    z-index: 2;
+    background-color: var(--text);
+    color: var(--bg);
+    padding: 5%;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.oggyBoie{
+    width: 100%;
+    padding-left: 25%;
+    margin-left: 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    margin-top: 8%;
+}
+
+.contactItem {
+    width: 100%;
+    min-height: 62px;
+
+    display: grid;
+    grid-template-columns: 42px 1fr 24px;
+    align-items: center;
+    gap: 12px;
+
+    padding: 0 18px;
+
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+
+    color: var(--text);
+    text-decoration: none;
+
+    box-shadow: 0 14px 35px var(--shadow);
+
+    transition: 
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.contactItem svg {
+    font-size: var(--fs-md);
+    color: var(--accent);
+}
+
+.contactItem span {
+    font-family: "Elms";
+    font-size: var(--fs-sm);
+    color: var(--text);
+    letter-spacing: 0.5px;
+}
+
+.contactItem svg:last-child {
+    justify-self: end;
+    font-size: var(--fs-xs);
+    color: var(--text-light);
+}
+
+.contactItem:hover {
+    transform: translateY(-3px);
+    background: var(--surface);
+    border-color: var(--accent-light);
+    box-shadow: 0 18px 42px rgba(92, 72, 46, 0.13);
+}
+
+.contactItem:hover svg:last-child {
+    color: var(--accent);
+    transform: translateX(3px);
+}

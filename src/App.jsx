@@ -17,9 +17,11 @@ import mePhoto from "/images/soyMain.png";
 import XenoModel from "./assets/XenoModel.jsx";
 import MeowModel from "./assets/MeowModel.jsx";
 import CosmicModel from "./assets/CosmicModel.jsx";
-import About from "./pages/about/about";
 
+
+import About from "./pages/about/about";
 import Projects from "./pages/projects/projects";
+import Contact from "./pages/contact/contact.jsx";
 
 
 import Xeno from "./pages/projects/xeno";
@@ -218,6 +220,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<><Header /><About /></>} />
       <Route path="/projects" element={<><Header /><Projects /></>} />
+      <Route path="/contact" element={<><Header /><Contact/></>} />
       <Route path="/projects/xeno" element={<><Header /><Xeno /></>} />
       <Route path="/projects/meowditation" element={<><Header /><Meow /></>} />
       <Route path="/projects/cosmic-contamination" element={<><Header /><Contamination /></>} />

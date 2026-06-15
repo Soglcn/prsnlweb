@@ -1,0 +1,31 @@
+{
+  "en": {
+    "getTouch": "GET IN TOUCH",
+    "letsBuild": "Let's Build Something Together",
+    "introText": "Feel free to get in touch for the priceless journey of creating, collaborating, and building something together."
+  },
+
+  "tr": {
+    "getTouch": "İLETİŞİME GEÇ",
+    "letsBuild": "Birlikte Bir Şeyler İnşa Edelim",
+    "introText": "Birlikte üretmenin, ortak olmanın ve bir şeyler inşa etmenin paha biçilemez yolculuğu için benimle iletişime geçebilirsin."
+  },
+
+  "fr": {
+    "getTouch": "PRENDRE CONTACT",
+    "letsBuild": "Construisons Quelque Chose Ensemble",
+    "introText": "N’hésite pas à me contacter pour ce précieux voyage de création, de collaboration et de construction commune."
+  },
+
+  "es": {
+    "getTouch": "PONTE EN CONTACTO",
+    "letsBuild": "Construyamos Algo Juntos",
+    "introText": "No dudes en contactarme para emprender el valioso viaje de crear, colaborar y construir algo juntos."
+  },
+
+  "it": {
+    "getTouch": "METTIAMOCI IN CONTATTO",
+    "letsBuild": "Costruiamo Qualcosa Insieme",
+    "introText": "Sentiti libero di contattarmi per il prezioso percorso di creare, collaborare e costruire qualcosa insieme."
+  }
+}
