@@ -56,9 +56,9 @@ function Contact() {
                 </div>
 
                 <div className="conButtons">
-                    <div className="contactLinks">
+                    <div className="cLinks">
 
-                        <a href="mailto:oggy@soglcn.com" className="contactItem">
+                        <a href="mailto:oggy@soglcn.com" className="cItem">
                             <FontAwesomeIcon icon={faEnvelope} />
                             <span>oggy@soglcn.com</span>
                             <FontAwesomeIcon icon={faArrowRight} />
@@ -68,7 +68,7 @@ function Contact() {
                             href="https://www.linkedin.com/in/socy"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="contactItem"
+                            className="cItem"
                         >
                             <FontAwesomeIcon icon={faLinkedin} />
                             <span>LinkedIn</span>
@@ -79,20 +79,23 @@ function Contact() {
                             href="https://github.com/Soglcn"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="contactItem"
+                            className="cItem"
                         >
                             <FontAwesomeIcon icon={faGithub} />
                             <span>GitHub</span>
                             <FontAwesomeIcon icon={faArrowRight} />
                         </a>
 
-                        <a href="tel:+905304618269" className="contactItem">
+                        <a
+                            href="tel:+905304618269"
+                            className="cItem"
+                        >
                             <FontAwesomeIcon icon={faPhone} />
-                            <span>+90-(530)-461-8269</span>
+                            <span>+90 (530) 461 82 69</span>
                             <FontAwesomeIcon icon={faArrowRight} />
                         </a>
-                    </div>
 
+                    </div>
                 </div>
 
             </div>
