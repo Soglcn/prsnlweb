@@ -9,12 +9,26 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../public/images/sy_dark_logo.png";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { useRef } from "react";
+
 
 
 
 function Header() {
     const { language, changeLanguage } = useLanguage();
     const [menuOpen, setMenuOpen] = useState(false);
+    const selectRef = useRef(null);
+
+    const openDropdown = () => {
+        selectRef.current?.focus();
+
+        if (selectRef.current?.showPicker) {
+            selectRef.current.showPicker();
+        } else {
+            selectRef.current?.click();
+        }
+    };
 
     return (
         <header className="header">
@@ -59,10 +73,37 @@ function Header() {
             </nav>
 
 
+
+
             <div className="headerRightCont">
-                <div className="langCont">
+                <div className="tBar">
+
+                    <Link className="nBtn" to="/" onClick={() => setMenuOpen(false)}>
+                        {t(headerText, language, "home")}
+                    </Link>
+
+                    <Link className="nBtn" to="/projects" onClick={() => setMenuOpen(false)}>
+                        {t(headerText, language, "projects")}
+                    </Link>
+
+                    <Link className="nBtn" to="/about" onClick={() => setMenuOpen(false)}>
+                        {t(headerText, language, "about")}
+                    </Link>
+
+                    <Link className="nBtn" to="/contact" onClick={() => setMenuOpen(false)}>
+                        {t(headerText, language, "contact")}
+                    </Link>
+
+                    <Link className="nBtn" to="/resume" onClick={() => setMenuOpen(false)}>
+                        {t(headerText, language, "resume")}
+                    </Link>
+
+                </div>
+                <div className="langCont" onClick={openDropdown}>
                     <FontAwesomeIcon icon={faGlobe} />
+
                     <select
+                        ref={selectRef}
                         className="headerLang"
                         value={language}
                         onChange={(e) => changeLanguage(e.target.value)}
@@ -73,7 +114,13 @@ function Header() {
                             </option>
                         ))}
                     </select>
+
+                    <FontAwesomeIcon
+                        icon={faChevronDown}
+                        className="langArrow"
+                    />
                 </div>
+
                 <button
                     className="btnBurger"
                     onClick={() => setMenuOpen(!menuOpen)}

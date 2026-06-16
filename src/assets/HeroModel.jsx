@@ -5,19 +5,22 @@ import { useTexture } from "@react-three/drei";
 
 function Model() {
     const ref = useRef();
-    const { scene } = useGLTF("/models/contallien.glb");
+    const { scene } = useGLTF("/models/daed.glb");
+
+    const startRotation = -0.4;
 
     useFrame((state) => {
         ref.current.rotation.y =
-            Math.sin(state.clock.elapsedTime) * 0.12;
+            startRotation +
+            Math.sin(state.clock.elapsedTime) * 0.25;
     });
 
     return (
         <primitive
             ref={ref}
             object={scene}
-            scale={0.8}
-            position={[0.35, 0, 0]}
+            scale={1.6}
+            position={[0.25, 0, 0]}
         />
     );
 }
@@ -26,7 +29,7 @@ function Background() {
     const texture = useTexture("/images/contallienbg.png");
 
     return (
-        <mesh position={[0, 0, -5]}>
+        <mesh position={[0, 0, -6]}>
             <planeGeometry args={[5, 5]} />
             <meshBasicMaterial map={texture} />
         </mesh>
@@ -36,14 +39,14 @@ function Background() {
 function HeroModel() {
     return (
         <Canvas
-            camera={{ position: [0, 0, 2], fov: 45 }}
+            camera={{ position: [0, 0, 6], fov: 35 }}
             gl={{ alpha: true }}
             style={{ background: "transparent" }}
         >
             <directionalLight
                 position={[0, 8, 3]}
-                intensity={3}
-                color="#c9a46a"
+                intensity={4}
+                color="#fff5d8"
             />
             <ambientLight intensity={1} />
             <Model />

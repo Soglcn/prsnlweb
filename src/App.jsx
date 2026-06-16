@@ -45,6 +45,15 @@ import Gateway from "./pages/projects/gateway.jsx";
 import Veren from "./pages/projects/veren.jsx";
 import Sima from "./pages/projects/sima.jsx";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faLinkedin,
+  faGithub,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+
 function HomePage() {
   const { language } = useLanguage();
 
@@ -55,6 +64,54 @@ function HomePage() {
       <Header />
 
       <main>
+        <p className="daedalus reveal">"Medio limite vola: ne si demissior ibis, unda gravet pennas; si celsior, ignis adurat." <br /><span>Metamorphoses VIII, 200–235</span></p>
+        <div className="hideInMobile">
+          <div className="leftCompass">
+            <div className="hidSoc">
+              <a
+                href="https://linkedin.com/in/socy"
+                className="hidLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} className="hidIcon" />
+              </a>
+
+              <a
+                href="https://github.com/Soglcn"
+                className="hidLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="hidIcon" />
+              </a>
+
+              <a
+                href="https://instagram.com/oglcn.snn"
+                className="hidLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faInstagram} className="hidIcon" />
+              </a>
+
+              <a
+                href="https://youtube.com/@scyozgat"
+                className="hidLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faYoutube} className="hidIcon" />
+              </a>
+            </div>
+          
+            <div className="heroLine"></div>
+            <img className="heroCompass" src={compassIcon} alt="Compass" />
+          </div>
+          <p className="scText">
+            {t(appText, language, "scroll")}
+          </p>
+        </div>
         <div className="hero">
           <div className="landingWelcome">
             <div className="welcomeTextArea">
@@ -65,17 +122,20 @@ function HomePage() {
               </h2>
               <h2 className="wlcCatch">{t(appText, language, "catch")}</h2>
 
-              <Link to="/projects" className="btnExplore">
-                {t(appText, language, "explore")}
-                <span></span>
-                <span className="arrowUpRight">→</span>
-              </Link>
 
-              <button className="btnResume">
-                {t(appText, language, "resume")}
-                <span></span>
-                <span className="arrowUpRight">↓</span>
-              </button>
+              <div className="linkInDiv">
+                <Link to="/projects" className="btnExplore">
+                  {t(appText, language, "explore")}
+                  <span></span>
+                  <span className="arrowUpRight">→</span>
+                </Link>
+
+                <Link to="/projects" className="btnResume">
+                  {t(appText, language, "resume")}
+                  <span className="theEmptinessMachine"></span>
+                  <span className="arrowUpRight">↓</span>
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -220,7 +280,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<><Header /><About /></>} />
       <Route path="/projects" element={<><Header /><Projects /></>} />
-      <Route path="/contact" element={<><Header /><Contact/></>} />
+      <Route path="/contact" element={<><Header /><Contact /></>} />
       <Route path="/projects/xeno" element={<><Header /><Xeno /></>} />
       <Route path="/projects/meowditation" element={<><Header /><Meow /></>} />
       <Route path="/projects/cosmic-contamination" element={<><Header /><Contamination /></>} />

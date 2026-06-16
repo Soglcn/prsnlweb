@@ -60,7 +60,7 @@ main {
 }
 
 .btnExplore {
-    width: auto;
+    width: 250px;
     background: none;
     display: flex;
     align-items: center;
@@ -85,17 +85,6 @@ main {
     width: auto;
     background: none;
     display: none;
-    align-items: center;
-    font-family: "Elms";
-    font-size: var(--fs-xs);
-    font-weight: 600;
-    gap: 10%;
-    border: none;
-    border-bottom: 1px solid var(--accent);
-    padding-top: 5%;
-    padding-bottom: 5px;
-    margin: 10px 25px 10px 25px;
-    color: var(--text);
     white-space: nowrap;
     text-align: justify;
 }
@@ -104,6 +93,8 @@ main {
     position: relative;
     width: 100%;
     height: 50vh;
+    padding-left: 25%;
+    margin-bottom: 35%;
 }
 
 canvas {
@@ -118,6 +109,7 @@ canvas {
     object-fit: cover;
     z-index: 1;
     opacity: 0.5;
+    padding-right: 25%;
 }
 
 .heroModel canvas {
@@ -301,14 +293,14 @@ canvas {
     object-fit: cover;
 }
 
-.footerMap{
+.footerMap {
     background-color: var(--border);
     margin-left: -5%;
     margin-bottom: -5%;
     margin-top: 5%;
 }
 
-.bannerText{
+.bannerText {
     margin-top: 5%;
     font-family: "Elms";
     font-size: var(--fs-xs);
@@ -317,4 +309,317 @@ canvas {
     padding-left: 5%;
     color: var(--text);
     padding-bottom: 5%;
+}
+
+.daedalus {
+    position: absolute;
+    background-color: #fff;
+    z-index: 8;
+    left: 0vw;
+    width: 75vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    top: 123vh;
+    font-family: "Lora";
+    font-size: var(--fs-xs);
+    mix-blend-mode: difference;
+    color: #000;
+    padding: 5%;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.daedalus span {
+    font-size: var(--fs-xxs);
+    padding-top: 5%;
+}
+
+.hideInMobile {
+    display: none;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+    main {
+        width: 100vw;
+        padding-top: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcomeTextArea {
+        width: 50%;
+        padding-left: 10%;
+    }
+
+    .wlcTitle {
+        font-size: var(--fs-xs);
+    }
+
+    .wlcName {
+        font-size: var(--fs-desktop-big);
+        letter-spacing: 5px;
+        font-weight: 100;
+    }
+
+    .wlcDescription {
+        font-size: var(--fs-md);
+    }
+
+    .wlcCatch {
+        font-size: var(--fs-sm);
+        width: 75%;
+        padding-bottom: 5%;
+    }
+
+    .btnExplore {
+        width: fit-content;
+        background: none;
+        display: flex;
+        align-items: center;
+        font-family: "Elms";
+        font-size: var(--fs-xs);
+        font-weight: 300;
+        gap: 10%;
+        border: none;
+        margin-top: 5%;
+        padding: 15px;
+        padding-right: 45px;
+        color: var(--text);
+        border: 1px solid var(--accent);
+        white-space: nowrap;
+        text-align: justify;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btnExplore:hover {
+        border-radius: 50px;
+        letter-spacing: 3px;
+        padding-left: 5%;
+    }
+
+
+    .btnExplore:hover+.btnResume {
+        opacity: 0;
+    }
+
+    .arrowUpRight {
+        margin-right: 5%;
+    }
+
+    .linkInDiv {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        gap: 15%;
+        height: 75px;
+    }
+
+    .btnResume {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-family: "Elms";
+        font-weight: 300;
+        font-size: var(--fs-xs);
+        padding: 15px;
+        margin-top: 5%;
+        color: var(--text);
+        text-decoration: none;
+        border-bottom: 1px solid var(--accent);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btnResume:hover {
+        color: var(--accent);
+        border-bottom: 1px solid var(--text);
+        letter-spacing: 5px;
+    }
+
+
+    .heroModel {
+        position: absolute;
+        width: 60vw;
+        height: 80vh;
+        top: 10vh;
+        right: 0;
+        padding-left: 0%;
+    }
+
+    canvas {
+        background: transparent !important;
+    }
+
+    .heroBg {
+        position: absolute;
+        inset: 0;
+        width: auto;
+        height: 120%;
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.25;
+        padding-left: 7%;
+    }
+
+    .heroModel canvas {
+        position: relative;
+        z-index: 2;
+    }
+
+    .daedalus {
+        position: absolute;
+        background-color: var(--bg);
+        z-index: 8;
+        left: 70vw;
+        width: 30vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        top: 75vh;
+        font-family: "Lora";
+        font-size: var(--fs-lg);
+        mix-blend-mode: difference;
+        color: #000;
+        padding: 5%;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+
+    .daedalus span {
+        font-size: var(--fs-xs);
+        padding-top: 5%;
+    }
+
+
+    .selectedProjects {
+        margin-top: 5%;
+        font-family: "Elms";
+        font-size: var(--fs-xxs);
+        width: 90%;
+        padding-left: 5%;
+        color: var(--accent);
+    }
+
+    .selTitle {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        text-transform: uppercase;
+        padding-top: 5%;
+    }
+
+    .selSub {
+        width: fit-content;
+        font-size: var(--fs-lg);
+    }
+
+    .compassLine {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .compassLine img {
+        width: 15%;
+        padding-left: 5%;
+    }
+
+    .compassLine span {
+        flex: 1;
+        height: 1px;
+
+        background: linear-gradient(90deg,
+                #B08D57,
+                #F6F3EE);
+    }
+
+    .hideInMobile {
+        display: flex;
+        position: absolute;
+        z-index: 8;
+        top: 90vh;
+        width: 100vw;
+        justify-content: center;
+        font-family: "Elms";
+        letter-spacing: 3px;
+        color: var(--accent);
+    }
+
+    .leftCompass {
+        display: block;
+        position: absolute;
+        z-index: 8;
+        top: -30vh;
+        left: 0;
+        width: 10vw;
+        justify-content: center;
+        font-family: "Elms";
+        color: var(--accent);
+        height: 20vh;
+    }
+
+    .hidSoc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 6vw;
+        width: fit-content;
+        height: auto;
+    }
+
+    .hidLink {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .hidIcon {
+        font-size: var(--fs-md);
+        color: var(--text-faint);
+        transition: transform 0.5s ease, color 1s ease;
+        transform-origin: center;
+    }
+
+    .hidLink:hover .hidIcon {
+        transform: scale(1.5);
+        color: var(--text);
+    }
+
+    .heroCompass {
+        position: absolute;
+        width: 35%;
+        left: 5vw;
+        top: 20vh;
+    }
+
+    .heroLine {
+        position: absolute;
+        width: 5%;
+        height: 25vh;
+        left: 7vw;
+        top: -40vh;
+        border-left: 1px solid;
+            border-image: linear-gradient(0deg,
+            #7B736A, #F6F3EE) 1;
+    }
+
 }
