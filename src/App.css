@@ -505,7 +505,7 @@ canvas {
 
 
     .selectedProjects {
-        margin-top: 5%;
+        margin-top: 10%;
         font-family: "Elms";
         font-size: var(--fs-xxs);
         width: 90%;
@@ -564,7 +564,7 @@ canvas {
         display: block;
         position: absolute;
         z-index: 8;
-        top: -30vh;
+        top: -25vh;
         left: 0;
         width: 10vw;
         justify-content: center;
@@ -618,8 +618,83 @@ canvas {
         left: 7vw;
         top: -40vh;
         border-left: 1px solid;
-            border-image: linear-gradient(0deg,
-            #7B736A, #F6F3EE) 1;
+        border-image: linear-gradient(0deg,
+                #7B736A, #F6F3EE) 1;
     }
+
+
+    .featured {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+
+    .featuredText {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+
+    .featureNumber {
+        padding-top: 0%;
+        font-weight: 600;
+        font-size: var(--fs-display);
+    }
+
+    .ftBox {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        justify-content: center;
+        width: 30%;
+        margin-left: 5%;
+        border-left: 1px solid;
+        border-image: linear-gradient(0deg,
+              #F6F3EE,  #7B736A, #F6F3EE) 1;
+    }
+
+    .featuredModels {
+        position: relative;
+        width: 60%;
+        height: 40vh;
+        margin-right: 5%;
+    }
+
+
+
+    .featuredName {
+        font-family: "Lora";
+        color: var(--text);
+        font-size: var(--fs-display);
+        font-weight: 300;
+    }
+
+    .featuredDesc {
+        font-size: var(--fs-md);
+        color: var(--text);
+        font-weight: 300;
+        padding-right: 0%;
+    }
+
+    .btnGoProject {
+        width: auto;
+        background: none;
+        align-items: center;
+        font-family: "Elms";
+        font-size: var(--fs-xs);
+        font-weight: 600;
+        gap: 10%;
+        border: none;
+        padding-bottom: 5px;
+        color: var(--text-faint);
+        white-space: nowrap;
+        text-align: justify;
+        text-decoration: none;
+        letter-spacing: 2px;
+        padding-top: 5%;
+    }
+
 
 }

@@ -12,14 +12,14 @@ function Model() {
         if (!ref.current || isHovered) return;
 
         ref.current.rotation.y =
-            Math.sin(state.clock.elapsedTime) * 0.025;
+            Math.sin(state.clock.elapsedTime) * 0.15;
     });
 
     return (
         <primitive
             ref={ref}
             object={scene}
-            scale={3}
+            scale={2.5}
             position={[0, -1, -3.25]}
             onPointerEnter={() => setIsHovered(true)}
             onPointerLeave={() => setIsHovered(false)}
@@ -37,7 +37,7 @@ function cosmicModel() {
             <directionalLight
                 position={[0, 8, 3]}
                 intensity={3}
-                color="#c9a46a"
+                color="#f6e8d0"
             />
 
             <ambientLight intensity={1} />

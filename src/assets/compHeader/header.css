@@ -203,7 +203,6 @@ select:focus {
     }
 
     .langCont {
-        border: 1px solid var(--text-light);
         padding: 10px;
         border-radius: 25px;
         transition: 0.5s ease-in-out;

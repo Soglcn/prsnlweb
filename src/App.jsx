@@ -104,12 +104,12 @@ function HomePage() {
                 <FontAwesomeIcon icon={faYoutube} className="hidIcon" />
               </a>
             </div>
-          
+
             <div className="heroLine"></div>
             <img className="heroCompass" src={compassIcon} alt="Compass" />
           </div>
           <p className="scText">
-            {t(appText, language, "scroll")}
+            {t(appText, language, "sc")}
           </p>
         </div>
         <div className="hero">
@@ -158,60 +158,67 @@ function HomePage() {
           <div className="featured reveal reveal-left">
             <div className="featuredText">
               <h3 className="featureNumber">01</h3>
-              <h1 className="featuredName">XENO</h1>
-              <h2 className="featuredDesc">
-                {t(appText, language, "xenoDesc")}
-              </h2>
+              <div className="ftBox">
+                <h1 className="featuredName">XENO</h1>
+                <h2 className="featuredDesc">
+                  {t(appText, language, "xenoDesc")}
+                </h2>
+                <Link to="/projects/xeno" className="btnGoProject">
+                  {t(appText, language, "goProject")}
+                  <span></span>
+                  <span className="arrowUpRight">→</span>
+                </Link>
+              </div>
 
               <div className="featuredModels">
                 <XenoModel />
               </div>
 
-              <Link to="/projects/xeno" className="btnGoProject">
-                {t(appText, language, "goProject")}
-                <span></span>
-                <span className="arrowUpRight">→</span>
-              </Link>
             </div>
           </div>
 
           <div className="featured reveal reveal-right">
             <div className="featuredText">
               <h3 className="featureNumber">02</h3>
-              <h1 className="featuredName">MEOWDITATION</h1>
-              <h2 className="featuredDesc">
-                {t(appText, language, "meowDesc")}
-              </h2>
+              <div className="ftBox">
+                <h1 className="featuredName">MEOWDITATION</h1>
+                <h2 className="featuredDesc">
+                  {t(appText, language, "meowDesc")}
+                </h2>
+                <Link to="/projects/meowditation" className="btnGoProject">
+                  {t(appText, language, "goProject")}
+                  <span></span>
+                  <span className="arrowUpRight">→</span>
+                </Link>
+              </div>
 
               <div className="featuredModels">
                 <MeowModel />
               </div>
 
-              <Link to="/projects/meowditation" className="btnGoProject">
-                {t(appText, language, "goProject")}
-                <span></span>
-                <span className="arrowUpRight">→</span>
-              </Link>
+
             </div>
           </div>
 
           <div className="featured reveal reveal-left">
             <div className="featuredText">
               <h3 className="featureNumber">03</h3>
-              <h1 className="featuredName">COSMIC CONTAMINATION</h1>
-              <h2 className="featuredDesc">
-                {t(appText, language, "cosmicDesc")}
-              </h2>
-
+              <div className="ftBox">
+                <h1 className="featuredName">COSMIC CONTAMINATION</h1>
+                <h2 className="featuredDesc">
+                  {t(appText, language, "cosmicDesc")}
+                </h2>
+                <Link to="/projects/cosmic-contamination" className="btnGoProject">
+                  {t(appText, language, "goProject")}
+                  <span></span>
+                  <span className="arrowUpRight">→</span>
+                </Link>
+              </div>
               <div className="featuredModels">
                 <CosmicModel />
               </div>
 
-              <Link to="/projects/cosmic-contamination" className="btnGoProject">
-                {t(appText, language, "goProject")}
-                <span></span>
-                <span className="arrowUpRight">→</span>
-              </Link>
+
             </div>
           </div>
         </div>
