@@ -98,35 +98,104 @@
     text-align: center;
     padding-bottom: 10%;
     padding-left: 5%;
-} 
+}
 
 .reveal {
-  opacity: 0;
-  transform: translateY(35px);
-  transition:
-    opacity 0.8s ease,
-    transform 0.8s ease;
+    opacity: 0;
+    transform: translateY(35px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
 }
 
 .reveal.revealed {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .reveal-left {
-  transform: translateX(-35px);
+    transform: translateX(-35px);
 }
 
 .reveal-right {
-  transform: translateX(35px);
+    transform: translateX(35px);
 }
 
 .reveal-up {
-  transform: translateY(35px);
+    transform: translateY(35px);
 }
 
 .reveal.revealed.reveal-left,
 .reveal.revealed.reveal-right,
 .reveal.revealed.reveal-up {
-  transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+@media screen and (min-width: 1440px) {
+    .footerArea {
+        font-family: "Elms";
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        height: auto;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+
+
+    .catch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 25%;
+        border-bottom: none;
+        padding-left: 0%;
+        margin-bottom: 0%;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+        height: auto;
+        padding-bottom: 0%;
+        border-bottom: none;
+        width: 60%;
+        margin-bottom: 0%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        font-size: var(--fs-xs);
+        border-bottom: none;
+        width: 25%;
+        margin-bottom: 0%;
+    }
+
+    .rights {
+        font-family: "Lora";
+        font-size: 6pt;
+        text-align: center;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    }
+
+
+    .letsCont {
+        font-size: var(--fs-xs);
+        color: var(--text);
+        padding-bottom: 5%;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
 }

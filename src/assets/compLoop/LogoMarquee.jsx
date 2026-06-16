@@ -84,8 +84,8 @@ function LogoMarquee() {
                         }
 
                         .logoGroup img {
-                            height: 44px;
-                            width: 155px;
+                            height: 105px;
+                            width: 350px;
                         }
 
                         .logoMarquee:hover img {
