@@ -104,21 +104,125 @@
     padding: 20px;
     display: flex;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-        background-color: var(--border-light);
+    background-color: var(--border-light);
     margin-bottom: 5%;
 }
 
 
-.skillTitle{
+.skillTitle {
     font-family: "Lora";
     font-size: var(--fs-md);
     color: var(--text);
 }
 
-.skillList{
+.skillList {
     font-family: "Elms";
     font-size: var(--fs-xxs);
     padding-top: 5%;
     padding-left: 15%;
     color: var(--text-light);
+}
+
+
+@media screen and (min-width: 768px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+
+    .abTopTitle {
+        font-family: "Elms";
+        font-size: var(--fs-display);
+        color: var(--accent);
+        text-align: left;
+        width: 100%;
+        position: absolute;
+        padding-bottom: 10%;
+        padding-left: 28%;
+        padding-top: 10%;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .abContext {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .abContext img {
+        width: 40%;
+        margin-left: -7%;
+    }
+
+    .abCatch {
+        font-family: "Lora";
+        text-align: left;
+        width: 45%;
+        margin-left: -3%;
+        padding-top: 5%;
+        font-size: var(--fs-xl);
+    }
+
+    .CompAb {
+        width: 100vw;
+        padding-left: 50px;
+        margin-left: 25%;
+    }
+
+
+    .abHistory {
+        padding-left: 5%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abHistory p {
+        font-family: "Elms";
+        font-size: var(--fs-md);
+        width: 50vw;
+        text-align: justify;
+        text-indent: 2rem;
+        margin-left: 20%;
+    }
+
+
+    .aboutStats {
+        width: 40%;
+        margin: 4rem auto;
+        padding-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .skillSet {
+        width: 90vw;
+        padding-left: 10%;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .skillBox {
+        width: auto;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        border-radius: 15px;
+        padding: 15%;
+    }
+
+    .skillList {
+        padding-left: 0;
+    }
+
+
+
 }

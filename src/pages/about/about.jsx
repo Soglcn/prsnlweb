@@ -34,6 +34,20 @@ function About() {
                 </div>
             </div>
 
+            <div className="prAb1">
+                <div className="selectedProjects">
+                    <div className="selTitle">
+                        <div className="compassLine">
+                            <img src="/images/compass.png" alt="Compass" />
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div className="scPr">
+                    ⌵
+                </div>
+            </div>
+
             <div className="CompAb reveal">
                 <div className="selectedProjects">
                     <div className="selTitle">
@@ -47,7 +61,7 @@ function About() {
             </div>
 
             <div className="abHistory reveal">
-                <h2 className="abTopTitle">{t(abt, language, "journey")}</h2>
+                <h2 className="abTopTitle" id="hide">{t(abt, language, "journey")}</h2>
                 <p className="reveal">{t(abt, language, "bio_1")}</p>
                 <br />
 

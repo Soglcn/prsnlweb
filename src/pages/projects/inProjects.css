@@ -315,4 +315,125 @@
     }
 
 
+    .over {
+        padding-top: 2%;
+        padding-bottom: 5%;
+        padding-left: 25%;
+    }
+
+    .over h1 {
+        font-family: "Elms";
+        font-size: var(--fs-xl);
+        color: var(--accent);
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding-bottom: 5%;
+    }
+
+    .over p {
+        color: var(--text);
+        font-family: "Elms";
+        font-size: var(--fs-md);
+        width: 85%;
+    }
+
+
+    .usedTechs {
+        padding-top: 0%;
+                margin-top: -15%;
+                margin-left: 25%;
+    }
+
+    .usedTechs h1 {
+        font-family: "Elms";
+        font-size: var(--fs-md);
+        color: var(--accent);
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding-bottom: 2%;
+    }
+
+    .uTech {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 3%;
+        scrollbar-width: none;
+        width: 50%;
+        margin-left: 0%;
+        padding-right: 5%;
+
+    }
+
+
+    .techLabel {
+        font-size: var(--fs-xs);
+        background-color: var(--bg-secondary);
+        font-family: "Elms";
+        border: 1px solid var(--stone);
+        padding: 1% 2%;
+        border-radius: 10px;
+        margin-left: 0%;
+        margin-right: 5px;
+    }
+
+    .moreDetail {
+        margin-top: 12.5%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        width: 30%;
+        background-color: var(--bg-secondary);
+        display: flex;
+        align-items: flex-start;
+        align-items: center;
+        padding: 0%;
+        border-radius: 25px;
+        color: var(--text);
+        border: 1px solid var(--stone);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+    }
+
+    .goddess {
+        width: 35%;
+        height: auto;
+        object-fit: contain;
+        flex-shrink: 0;
+        align-self: flex-start;
+        margin-left: 5%;
+    }
+
+    .detTextArea {
+        width: 65%;
+        padding-left: 5%;
+    }
+
+    .detTextArea h1 {
+        font-family: "Lora";
+        font-size: var(--fs-md);
+    }
+
+    .detTextArea p {
+        font-family: "Elms";
+        font-size: var(--fs-xxs);
+        color: var(--text-light);
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+    .btnCont {
+        font-family: "Elms";
+        font-size: var(--fs-xxs);
+        color: var(--accent);
+        text-align: center;
+        border: none;
+        background: none;
+    }
+
+
+
 }
