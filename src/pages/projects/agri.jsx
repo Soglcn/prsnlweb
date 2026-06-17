@@ -30,6 +30,16 @@ function Agri() {
                     <h1>{t(pt, language, "title")}</h1>
                     <p>{t(pt, language, "subtitle")}</p>
                 </div>
+                                <div className="prAb2">
+                    <div className="selectedProjects">
+                        <div className="selTitle">
+                            <div className="compassLine">
+                                <img src="/images/compass.png" alt="Compass" />
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="statAr">
                     <div className="stStat">

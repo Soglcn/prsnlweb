@@ -210,3 +210,109 @@
     border: none;
     background: none;
 }
+
+.prAb2 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+    .headImg {
+        width: 60%;
+        margin-left: 0%;
+        margin-top: 5%;
+        box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 150px;
+        border-top-left-radius: 0px;
+    }
+
+
+    .headAr {
+        margin-top: -25%;
+        padding: 5%;
+        margin-left: 55%;
+        mix-blend-mode: normal;
+        position: absolute;
+        color: var(--text);
+        text-align: left;
+    }
+
+    .headAr h1 {
+        font-size: var(--fs-display);
+        width: 100%;
+    }
+
+    .headAr p {
+        font-family: "Elms";
+        font-size: var(--fs-lg);
+        margin-left: 0%;
+        width: 70%;
+    }
+
+
+    .backButton {
+        text-decoration: none;
+        font-family: "Elms";
+        font-size: var(--fs-xs);
+        color: var(--accent);
+        font-weight: 500;
+        display: none;
+    }
+
+    .statAr {
+        position: absolute;
+        width: 30%;
+        margin-left: 60%;
+        margin-top: -5%;
+        margin-bottom: 0%;
+        background-color: rgba(255, 255, 255, 0);
+        display: grid;
+        backdrop-filter: blur(0px);
+        grid-template-columns: repeat(4, 1fr);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        overflow: hidden;
+        box-shadow: 0 18px 25px rgba(0, 0, 0, 0);
+    }
+
+    .stStat,
+    .stRole,
+    .stTech,
+    .stYear {
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .stStat,
+    .stRole {
+        border-bottom: none;
+    }
+
+    .stStat,
+    .stTech {
+        border-right: none;
+        text-align: left;
+        margin-left: 0%;
+    }
+
+
+    .prAb2 {
+        display: block;
+        position: absolute;
+        top: 33%;
+        padding-left: 0%;
+        margin-left: 52%;
+        width: 100vw;
+    }
+
+
+}

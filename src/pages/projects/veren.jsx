@@ -31,6 +31,17 @@ function Veren() {
                     <p>{t(pt, language, "subtitle")}</p>
                 </div>
 
+                                <div className="prAb2">
+                    <div className="selectedProjects">
+                        <div className="selTitle">
+                            <div className="compassLine">
+                                <img src="/images/compass.png" alt="Compass" />
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="statAr">
                     <div className="stStat">
                         <h1><FontAwesomeIcon icon={faCircleCheck} /> {t(pt, language, "stStat")}</h1>
