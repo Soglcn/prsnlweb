@@ -114,6 +114,86 @@
     transform: translateX(3px);
 }
 
+@media (min-width: 768px) {
+
+    .contMain {
+        width: 90vw;
+        padding-left: 5%;
+        padding-top: 15%;
+        overflow-x: hidden;
+    }
+
+    .buildHead h3 {
+        font-size: var(--fs-md);
+        letter-spacing: 3px;
+    }
+
+    .buildHead h1 {
+        font-size: var(--fs-display);
+        width: 55%;
+        line-height: 1.05;
+    }
+
+    .feelFree {
+        position: relative;
+        padding-top: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .feelFree p {
+        width: 60%;
+        position: relative;
+        margin-top: 0;
+        padding: 3%;
+        font-size: var(--fs-xl);
+        line-height: 2rem;
+        letter-spacing: 2px;
+        z-index: 3;
+        text-align: left;
+    }
+
+    .oggyBoie {
+        width: 22%;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 8%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cLinks {
+        width: 60%;
+        margin-top: 2%;
+        padding-left: 3%;
+        margin-left: 18.5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .cItem {
+        width: 100%;
+        padding: 0 25px;
+        box-sizing: border-box;
+        min-height: 76px;
+    }
+
+    .cItem span {
+        font-size: var(--fs-xs);
+        white-space: nowrap;
+    }
+
+    .contMain {
+        width: 100%;
+        padding-left: 5%;
+        padding-top: 5%;
+        overflow-x: hidden;
+    }
+
+}
+
 @media (min-width: 1440px) {
 
     .contMain {

@@ -124,7 +124,102 @@
 }
 
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    .abTopTitle {
+        font-family: "Elms";
+        font-size: var(--fs-xl);
+        color: var(--accent);
+        text-align: left;
+        width: 100%;
+        position: absolute;
+        padding-bottom: 10%;
+        padding-left: 28%;
+        padding-top: 15%;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .abContext {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .abContext img {
+        width: 40%;
+        margin-left: -7%;
+    }
+
+    .abCatch {
+        font-family: "Lora";
+        text-align: left;
+        width: 45%;
+        margin-left: -3%;
+        padding-top: 5%;
+        font-size: var(--fs-md);
+    }
+
+    .CompAb {
+        width: 100vw;
+        padding-left: 50px;
+        margin-left: 25%;
+    }
+
+
+    .abHistory {
+        padding-left: 5%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abHistory p {
+        font-family: "Elms";
+        font-size: var(--fs-xs);
+        width: 50vw;
+        text-align: justify;
+        text-indent: 2rem;
+        margin-left: 20%;
+    }
+
+
+    .aboutStats {
+        width: 40%;
+        margin: 4rem auto;
+        padding-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .skillSet {
+        width: 90vw;
+        padding-left: 10%;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .skillBox {
+        width: auto;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        border-radius: 15px;
+        padding: 15%;
+    }
+
+    .skillList {
+        padding-left: 0;
+    }
+
+
+
+}
 
 /* Laptop */
 @media screen and (min-width: 1024px) {}

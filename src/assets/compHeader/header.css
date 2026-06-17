@@ -157,7 +157,50 @@ select:focus {
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .headerLogo {
+        width: 15%;
+        background: none;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .headerLeftCont {
+        width: 50%;
+        background: none;
+        padding-left: 5%;
+    }
+
+
+
+    .headerNav {
+        position: fixed;
+        top: 0;
+        left: 70%;
+        width: 30vw;
+        height: 100%;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: var(--fs-xl);
+        background-color: var(--bg);
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-16px);
+        pointer-events: none;
+        transition:
+            opacity 0.75s ease,
+            transform 0.9s ease,
+            visibility 1s ease;
+    }
+
+    .menuLogo {
+    display: none;
+}
+}
 
 /* Laptop */
 @media screen and (min-width: 1024px) {}

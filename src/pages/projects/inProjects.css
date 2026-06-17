@@ -215,10 +215,223 @@
     display: none;
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .headImg {
+        width: 60%;
+        margin-left: 0%;
+        margin-top: 5%;
+        box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 150px;
+        border-top-left-radius: 0px;
+    }
 
-/* Laptop */
-@media screen and (min-width: 1024px) {}
+
+    .headAr {
+        margin-top: -25%;
+        padding: 5%;
+        margin-left: 55%;
+        mix-blend-mode: normal;
+        position: absolute;
+        color: var(--text);
+        text-align: left;
+    }
+
+    .headAr h1 {
+        font-size: var(--fs-xl);
+        width: 100%;
+    }
+
+    .headAr p {
+        font-family: "Elms";
+        font-size: var(--fs-md);
+        margin-left: 0%;
+        width: 70%;
+    }
+
+
+    .backButton {
+        text-decoration: none;
+        font-family: "Elms";
+        font-size: var(--fs-xs);
+        color: var(--accent);
+        font-weight: 500;
+        display: none;
+    }
+
+    .statAr {
+        position: absolute;
+        width: 30%;
+        margin-left: 60%;
+        margin-top: -10%;
+        margin-bottom: 0%;
+        background-color: rgba(255, 255, 255, 0);
+        display: grid;
+        backdrop-filter: blur(0px);
+        grid-template-columns: repeat(2, 1fr);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        overflow: hidden;
+        box-shadow: 0 18px 25px rgba(0, 0, 0, 0);
+    }
+
+    .stStat,
+    .stRole,
+    .stTech,
+    .stYear {
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .stStat,
+    .stRole {
+        border-bottom: none;
+        padding-bottom: 15%;
+    }
+
+    .stStat,
+    .stTech {
+        border-right: none;
+        text-align: left;
+        margin-left: 0%;
+    }
+
+
+    .prAb2 {
+        display: none;
+        position: absolute;
+        top: 33%;
+        padding-left: 0%;
+        margin-left: 52%;
+        width: 100vw;
+    }
+
+
+    .over {
+        padding-top: 2%;
+        padding-bottom: 5%;
+        padding-left: 25%;
+    }
+
+    .over h1 {
+        font-family: "Elms";
+        font-size: var(--fs-md);
+        color: var(--accent);
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding-bottom: 5%;
+    }
+
+    .over p {
+        color: var(--text);
+        font-family: "Elms";
+        font-size: var(--fs-xs);
+        width: 85%;
+    }
+
+
+    .usedTechs {
+        padding-top: 0%;
+                margin-top: -15%;
+                margin-left: 25%;
+    }
+
+    .usedTechs h1 {
+        font-family: "Elms";
+        font-size: var(--fs-md);
+        color: var(--accent);
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding-bottom: 2%;
+    }
+
+    .uTech {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 3%;
+        scrollbar-width: none;
+        width: 50%;
+        margin-left: 0%;
+        padding-right: 5%;
+
+    }
+
+
+    .techLabel {
+        font-size: var(--fs-xs);
+        background-color: var(--bg-secondary);
+        font-family: "Elms";
+        border: 1px solid var(--stone);
+        padding: 1% 2%;
+        border-radius: 10px;
+        margin-left: 0%;
+        margin-right: 5px;
+    }
+
+    .moreDetail {
+        margin-top: 12.5%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+        width: 30%;
+        background-color: var(--bg-secondary);
+        display: flex;
+        align-items: flex-start;
+        align-items: center;
+        padding: 0%;
+        border-radius: 25px;
+        color: var(--text);
+        border: 1px solid var(--stone);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+    }
+
+    .goddess {
+        width: 35%;
+        height: auto;
+        object-fit: contain;
+        flex-shrink: 0;
+        align-self: flex-start;
+        margin-left: 5%;
+    }
+
+    .detTextArea {
+        width: 65%;
+        padding-left: 5%;
+    }
+
+    .detTextArea h1 {
+        font-family: "Lora";
+        font-size: var(--fs-md);
+    }
+
+    .detTextArea p {
+        font-family: "Elms";
+        font-size: var(--fs-xxs);
+        color: var(--text-light);
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+    .btnCont {
+        font-family: "Elms";
+        font-size: var(--fs-xxs);
+        color: var(--accent);
+        text-align: center;
+        border: none;
+        background: none;
+    }
+
+
+
+}
 
 /* Desktop */
 @media screen and (min-width: 1440px) {
@@ -308,7 +521,7 @@
     .prAb2 {
         display: block;
         position: absolute;
-        top: 33%;
+        top: 30%;
         padding-left: 0%;
         margin-left: 52%;
         width: 100vw;
