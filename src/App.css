@@ -344,6 +344,7 @@ canvas {
 /* Tablet */
 @media screen and (min-width: 768px) {}
 
+
 /* Laptop */
 @media screen and (min-width: 1024px) {}
 
