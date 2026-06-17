@@ -30,6 +30,19 @@ function Projects() {
                 <div className="prHead">
                     <h2 className="prTopTitle">{t(pbt, language, "title")}</h2>
 
+                    <div className="prAb1">
+                        <div className="selectedProjects">
+                            <div className="selTitle">
+                                <div className="compassLine">
+                                    <img src="/images/compass.png" alt="Compass" />
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="scPr">
+                            ⌵
+                        </div>
+                    </div>
                     <div className="prContext">
                         <img src="/images/column.png" alt="" />
                         <p className="prCatch">{t(pbt, language, "projectsCatch")}</p>

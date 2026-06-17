@@ -348,9 +348,9 @@ canvas {
 @media screen and (min-width: 1024px) {}
 
 /* Desktop */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px){
     main {
-        width: 100vw;
+        width: 100vw; 
         padding-top: 0%;
         display: flex;
         flex-direction: column;
@@ -608,15 +608,15 @@ canvas {
         position: absolute;
         width: 35%;
         left: 5vw;
-        top: 20vh;
+        top: 100%;
     }
 
     .heroLine {
         position: absolute;
         width: 5%;
-        height: 25vh;
+        height: 125%;
         left: 7vw;
-        top: -40vh;
+        top: -200%;
         border-left: 1px solid;
         border-image: linear-gradient(0deg,
                 #7B736A, #F6F3EE) 1;
@@ -734,6 +734,7 @@ canvas {
 
     .abSub {
         width: 10%;
+        white-space: nowrap;
     }
 
     .compassAb {
