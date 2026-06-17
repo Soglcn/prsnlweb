@@ -59,9 +59,16 @@ function Header() {
                     {t(headerText, language, "contact")}
                 </Link>
 
-                <Link to="/contact" onClick={() => setMenuOpen(false)}>
+                <a
+                    href="/Sinan-Ogulcan-Yozgat-CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMenuOpen(false)}
+                >
                     {t(headerText, language, "resume")}
-                </Link>
+                </a>
+
+
                 <button
                     className="btnCloseMenu"
                     onClick={() => setMenuOpen(false)}
@@ -94,9 +101,15 @@ function Header() {
                         {t(headerText, language, "contact")}
                     </Link>
 
-                    <Link className="nBtn" to="/resume" onClick={() => setMenuOpen(false)}>
+                    <a
+                        className="nBtn"
+                        href="/Sinan-Ogulcan-Yozgat-CV.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => setMenuOpen(false)}
+                    >
                         {t(headerText, language, "resume")}
-                    </Link>
+                    </a>
 
                 </div>
                 <div className="langCont" onClick={openDropdown}>

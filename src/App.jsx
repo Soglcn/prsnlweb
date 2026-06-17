@@ -54,6 +54,8 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
+import BetaNotice from "./BetaNotice";
+
 function HomePage() {
   const { language } = useLanguage();
 
@@ -62,6 +64,8 @@ function HomePage() {
   return (
     <>
       <Header />
+      <BetaNotice />
+
 
       <main>
         <p className="daedalus reveal">"Medio limite vola: ne si demissior ibis, unda gravet pennas; si celsior, ignis adurat." <br /><span>Metamorphoses VIII, 200–235</span></p>
@@ -130,11 +134,16 @@ function HomePage() {
                   <span className="arrowUpRight">→</span>
                 </Link>
 
-                <Link to="/projects" className="btnResume">
+                <a
+                  href="/Sinan-Ogulcan-Yozgat-CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btnResume"
+                >
                   {t(appText, language, "resume")}
                   <span className="theEmptinessMachine"></span>
                   <span className="arrowUpRight">↓</span>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
